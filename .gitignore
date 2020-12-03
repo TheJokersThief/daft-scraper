@@ -24,3 +24,4 @@ bin/
 # editors
 .idea/
 .vscode/
+examples/
