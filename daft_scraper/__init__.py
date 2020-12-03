@@ -24,6 +24,9 @@ class DaftHTTPSession(requests.Session):
 
 
 class Daft():
+    """
+    Make requests to the Daft website and parse them for eearching later
+    """
     BASE_URL = "https://www.daft.ie/"
 
     def __init__(self, user_agent=None):
