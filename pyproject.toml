@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "daft-scraper"
+version = "0.1.0"
+description = "A webscraper for Daft.ie"
+authors = ["Evan Smith <me@iamevan.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+beautifulsoup4 = "^4.9.3"
+requests = "^2.25.0"
+typer = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+pylint = "^2.6.0"
+pytest = "=5.0.1"
+pytest-cov = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

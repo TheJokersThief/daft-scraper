@@ -1,0 +1,26 @@
+build
+dist
+connexion.egg-info
+__pycache__
+.coverage
+*.egg
+*.egg-info
+
+htmlcov/
+*.pyc
+.eggs
+.cache/
+*.swp
+.tox/
+
+# flask instance folder
+instance
+
+# virtualenv folder
+.virtualenv
+.venv
+bin/
+
+# editors
+.idea/
+.vscode/
