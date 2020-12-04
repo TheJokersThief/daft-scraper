@@ -51,7 +51,6 @@ class TestDaftScraper(unittest.TestCase):
             BedOption(1, 4),
         ]
         got = self.api._translate_options(options)
-
         self.assertEqual(got, wanted)
 
     def test__build_search_path(self):
