@@ -1,4 +1,5 @@
 import json
+import sys
 from bs4 import BeautifulSoup
 from enum import Enum
 from typing import List
@@ -24,7 +25,7 @@ class DaftSearch():
         self.search_type = search_type
         self.site = Daft()
 
-    def search(self, query: List[Option]):
+    def search(self, query: List[Option], max_pages: int = sys.maxsize):
         path = self._build_search_path()
 
         # Convert options to their string form
@@ -40,7 +41,7 @@ class DaftSearch():
         totalPages = page_data['props']['pageProps']['paging']['totalPages']
         current_page = 0
 
-        while current_page < totalPages:
+        while current_page < min(totalPages, max_pages):
             listing_data = page_data['props']['pageProps']['listings']
             listings.extend(self._get_listings(listing_data))
 

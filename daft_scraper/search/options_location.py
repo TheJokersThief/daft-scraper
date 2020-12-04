@@ -6,7 +6,7 @@ from daft_scraper.search.options import Option
 
 
 class Location(Enum):
-    ALL = None
+    ALL = "ireland"
     ABBEY_GALWAY = "abbey-galway"
     ABBEYDORNEY_KERRY = "abbeydorney-kerry"
     ABBEYFEALE_KERRY = "abbeyfeale-kerry"

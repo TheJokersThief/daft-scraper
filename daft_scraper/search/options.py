@@ -52,7 +52,7 @@ class LeaseLengthOption(Option):
 
 
 class PropertyType(Enum):
-    ALL = None
+    ALL = "EMPTY"
     HOUSE = "houses"
     APARTMENT = "apartments"
     STUDIO_APARTMENT = "studio-apartments"
@@ -73,7 +73,7 @@ class PropertyTypesOption(Option):
 
 
 class Facility(Enum):
-    NONE = None
+    NONE = "EMPTY"
     ALARM = "alarm"
     CABLE_TELEVISION = "cable-television"
     DISHWASHER = "dishwasher"
@@ -105,7 +105,7 @@ class FacilitiesOption(Option):
 
 
 class MediaType(Enum):
-    ALL = None
+    ALL = "EMPTY"
     VIDEO = "video"
     VIRTUAL_TOUR = "virtual-tour"
 
@@ -150,7 +150,7 @@ class AdStateOption(Option):
 
 
 class Sort(Enum):
-    BEST_MATCH = None
+    BEST_MATCH = "EMPTY"
     MOST_RECENT = "publishDateDesc"
     PRICE_ASCENDING = "priceAsc"
     PRICE_DESCENDING = "priceDesc"
@@ -170,7 +170,7 @@ class SortOption(Option):
 
 
 class Furnishing(Enum):
-    ALL_FURNISHINGS = None
+    ALL_FURNISHINGS = "EMPTY"
     FURNISHED = "furnished"
     UNFURNISHED = "unfurnished"
 
