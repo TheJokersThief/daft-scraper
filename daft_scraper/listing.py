@@ -35,12 +35,19 @@ class ListingPoint(Schema):
     coordinates = fields.List(fields.Int())
 
 
+class ListingPRS(Schema):
+    totalUnitTYpes = fields.Int()
+    subUnits = fields.List(fields.Nested(lambda: Listing()))
+    tagLine = fields.Str()
+    location = fields.Str()
+
+
 class Listing(Schema):
     class Meta:
         # Include unknown fields in the deserialized output
         unknown = INCLUDE
 
-    id = fields.Str(required=True)
+    id = fields.Int(required=True)
     title = fields.Str()
 
     seoTitle = fields.Str()
@@ -62,4 +69,5 @@ class Listing(Schema):
 
     seller = fields.Nested(Seller, default=Seller())
     media = fields.Nested(ListingMedia, default=ListingMedia())
+    image = fields.Dict(keys=fields.Str(), values=fields.Str())
     ber = fields.Nested(ListingBER, default=ListingBER())
