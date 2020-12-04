@@ -6,12 +6,15 @@ from marshmallow.utils import missing
 class Seller(Schema):
     sellerId = fields.Int()
     name = fields.Str()
-    phone = fields.Str()
+    address = fields.Str()
     branch = fields.Str()
     licenceNumber = fields.Str()
-    phoneWhenToCall = fields.Str()
     sellerType = fields.Str()
     showContactForm = fields.Bool()
+
+    phone = fields.Str()
+    phoneWhenToCall = fields.Str()
+    alternativePhone = fields.Str()
 
     profileImage = fields.Str()
     standardLogo = fields.Str()
@@ -30,6 +33,8 @@ class ListingMedia(Schema):
 
 class ListingBER(Schema):
     rating = fields.Str()
+    code = fields.Str()
+    epi = fields.Str()
 
 
 class ListingPoint(Schema):
@@ -42,6 +47,8 @@ class ListingPRS(Schema):
     subUnits = fields.List(fields.Nested(lambda: Listing()))
     tagLine = fields.Str()
     location = fields.Str()
+    aboutDevelopment = fields.Str()
+    brochure = fields.Str()
 
 
 class Listing(Schema):
@@ -63,7 +70,7 @@ class Listing(Schema):
             return int(matches[0])
         return missing
 
-    id = fields.Int(required=True)
+    id = fields.Int()
     title = fields.Str()
 
     seoTitle = fields.Str()
