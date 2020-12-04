@@ -69,7 +69,6 @@ class DaftSearch():
     def _get_page_data(self, path, params):
         """Request a page and parse its JSON"""
         page = self.site.get(path, params=params)
-        page = BeautifulSoup(page)
         return self._extract_json(page)
 
     def _get_listings(self, listings: dict):
