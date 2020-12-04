@@ -6,12 +6,16 @@ authors = ["Evan Smith <me@iamevan.me>"]
 license = "MIT"
 readme = "README.md"
 
+[tool.poetry.scripts]
+daft = 'daft_scraper.cli:main'
+
 [tool.poetry.dependencies]
 python = "^3.7"
 beautifulsoup4 = "^4.9.3"
 requests = "^2.25.0"
 typer = "^0.3.2"
 marshmallow = "^3.9.1"
+tabulate = "^0.8.7"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.4"
