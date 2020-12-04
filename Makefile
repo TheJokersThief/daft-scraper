@@ -36,3 +36,7 @@ install: ensure-poetry clean  ## Install project without dev dependencies
 
 export_conf:  ## Export the poetry lockfile to requirements.txt
 	poetry export -f requirements.txt --output requirements.txt --without-hashes
+
+publish:
+	poetry build
+	poetry publish
