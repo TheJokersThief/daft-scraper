@@ -4,7 +4,8 @@ import mock
 import unittest
 
 from daft_scraper.search import DaftSearch, SearchType
-from daft_scraper.search.options import PropertyType, PropertyTypesOption, Facility, FacilitiesOption
+from daft_scraper.search.options import PropertyType, PropertyTypesOption, Facility, FacilitiesOption, PriceOption, BedOption
+from daft_scraper.search.options_location import LocationsOption, Location
 
 
 with open('tests/fixtures/sample_page.html') as file:
@@ -23,11 +24,35 @@ class TestDaftScraper(unittest.TestCase):
     def test_search(self, *args):
         options = [
             PropertyTypesOption([PropertyType.APARTMENT]),
-            FacilitiesOption([Facility.PARKING, Facility.SERVICED_PROPERTY])
+            FacilitiesOption([Facility.PARKING, Facility.SERVICED_PROPERTY]),
+            LocationsOption([Location.SWORDS_DUBLIN]),
+            PriceOption(0, 1000),
+            BedOption(1, 4),
         ]
 
         got = self.api.search(options)
         self.assertEqual(got[0]['id'], 1443907)
+
+    def test__translate_options(self):
+        wanted = {
+            'propertyType': ['apartments'],
+            'facilities': ['parking', 'serviced-property'],
+            'Location': ['swords-dublin'],
+            'rentalPrice_from': 0,
+            'rentalPrice_to': 1000,
+            'numBeds_from': 1,
+            'numBeds_to': 4
+        }
+        options = [
+            PropertyTypesOption([PropertyType.APARTMENT]),
+            FacilitiesOption([Facility.PARKING, Facility.SERVICED_PROPERTY]),
+            LocationsOption([Location.SWORDS_DUBLIN]),
+            PriceOption(0, 1000),
+            BedOption(1, 4),
+        ]
+        got = self.api._translate_options(options)
+
+        self.assertEqual(got, wanted)
 
     def test__build_search_path(self):
         got = self.api._build_search_path()

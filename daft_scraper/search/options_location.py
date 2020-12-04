@@ -1,7 +1,12 @@
+from dataclasses import dataclass
 from enum import Enum
+from typing import List
+
+from daft_scraper.search.options import Option
 
 
 class Location(Enum):
+    ALL = None
     ABBEY_GALWAY = "abbey-galway"
     ABBEYDORNEY_KERRY = "abbeydorney-kerry"
     ABBEYFEALE_KERRY = "abbeyfeale-kerry"
@@ -4150,3 +4155,17 @@ class Location(Enum):
     YOUGHAL_SURROUNDS_CORK = "youghal-and-surrounds-cork"
     YOUGHAL_CORK = "youghal-cork"
     YOUGHAL_TIPPERARY = "youghal-tipperary"
+
+
+@dataclass
+class LocationsOption(Option):
+    locations: List[Location]
+
+    def get_params(self):
+        if Location.ALL in self.locations:
+            # If we want "all", don't submit any params
+            return {}
+
+        return {
+            "Location": [location.value for location in self.locations]
+        }
