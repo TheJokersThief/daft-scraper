@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import mock
 import unittest
+from bs4 import BeautifulSoup
 
 from daft_scraper.search import DaftSearch, SearchType
 from daft_scraper.search.options import PropertyType, PropertyTypesOption, Facility, FacilitiesOption, PriceOption, BedOption
@@ -9,7 +10,7 @@ from daft_scraper.search.options_location import LocationsOption, Location
 
 
 with open('tests/fixtures/sample_page.html') as file:
-    SEARCH_PAGE_HTML = file.read()
+    SEARCH_PAGE_HTML = BeautifulSoup(file.read(), features="html.parser")
 
 
 class TestDaftScraper(unittest.TestCase):
