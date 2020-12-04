@@ -1,11 +1,13 @@
 import sys
 from dataclasses import dataclass
 from enum import Enum
+from typing import List
 
 
 class Option():
     def get_params(self):
         return {}
+
 
 @dataclass
 class PriceOption(Option):
@@ -20,6 +22,7 @@ class PriceOption(Option):
             f"{PriceOption.PARAM_KEY}_to": self.max,
         }
 
+
 @dataclass
 class BedOption(Option):
     min: int = 0
@@ -32,6 +35,7 @@ class BedOption(Option):
             f"{BedOption.PARAM_KEY}_from": self.min,
             f"{BedOption.PARAM_KEY}_to": self.max,
         }
+
 
 @dataclass
 class LeaseLengthOption(Option):
@@ -56,7 +60,7 @@ class PropertyType(Enum):
 
 @dataclass
 class PropertyTypesOption(Option):
-    property_types: list[PropertyType]  # pylint: disable=unsubscriptable-object
+    property_types: List[PropertyType]
 
     def get_params(self):
         if PropertyType.ALL in self.property_types:
@@ -64,7 +68,7 @@ class PropertyTypesOption(Option):
             return {}
 
         return {
-            "propertyType": [str(propType) for propType in self.property_types]
+            "propertyType": [propType.value for propType in self.property_types]
         }
 
 
@@ -86,8 +90,9 @@ class Facility(Enum):
     WHEELCHAIR_ACCESS = "wheelchair-access"
 
 
+@dataclass
 class FacilitiesOption(Option):
-    facilities: list[Facility]  # pylint: disable=unsubscriptable-object
+    facilities: List[Facility]
 
     def get_params(self):
         if self.facilities == [Facility.NONE]:
@@ -95,7 +100,7 @@ class FacilitiesOption(Option):
             return {}
 
         return {
-            "facilities": [str(facil) for facil in self.facilities]
+            "facilities": [facil.value for facil in self.facilities]
         }
 
 
@@ -107,7 +112,7 @@ class MediaType(Enum):
 
 @dataclass
 class MediaTypesOption(Option):
-    media_types: list[MediaType]  # pylint: disable=unsubscriptable-object
+    media_types: List[MediaType]
 
     def get_params(self):
         if MediaType.ALL in self.media_types:
@@ -115,12 +120,13 @@ class MediaTypesOption(Option):
             return {}
 
         return {
-            "mediaTypes": [str(propType) for propType in self.media_types]
+            "mediaTypes": [propType.value for propType in self.media_types]
         }
 
 
+@dataclass
 class KeywordsOption(Option):
-    terms = list[str]  # pylint: disable=unsubscriptable-object
+    terms = List[str]
 
     def get_params(self):
         return {
@@ -133,12 +139,13 @@ class AdState(Enum):
     AGREED = "sale-agreed"
 
 
+@dataclass
 class AdStateOption(Option):
     ad_state: AdState
 
     def get_params(self):
         return {
-            "adState": str(self.ad_state)
+            "adState": self.ad_state.value
         }
 
 
@@ -149,6 +156,7 @@ class Sort(Enum):
     PRICE_DESCENDING = "priceDesc"
 
 
+@dataclass
 class SortOption(Option):
     sort: Sort
 
@@ -157,7 +165,7 @@ class SortOption(Option):
             return {}
 
         return {
-            "sort": str(self.sort)
+            "sort": self.sort.value
         }
 
 
@@ -166,6 +174,8 @@ class Furnishing(Enum):
     FURNISHED = "furnished"
     UNFURNISHED = "unfurnished"
 
+
+@dataclass
 class FurnishingOption(Option):
     furnishing: Furnishing
 
@@ -174,5 +184,5 @@ class FurnishingOption(Option):
             return {}
 
         return {
-            "furnishing": str(self.furnishing)
+            "furnishing": self.furnishing.value
         }
