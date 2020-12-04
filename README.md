@@ -100,36 +100,3 @@ For any flag that can take `[multiple]` arguments, you can supply the flag multi
 | --media-type | Which media types must the listing include. [multiple] |
 | --sort | How should the results be sorted. For all possible views, check out the [Sort Enum](daft_scraper/search/options). |
 | --furnishing | Should the listing be furnished or unfurnished. |
-
-$ poetry run daft search --max-pages 1 property-for-rent --help
-Usage: daft search [OPTIONS] SEARCH_TYPE:[property-for-rent|property-for-
-                   sale|sharing|new-homes-for-sale|commercial-properties-for-
-                   rent|commercial-properties-for-sale]
-
-Arguments:
-  SEARCH_TYPE:[property-for-rent|property-for-sale|sharing|new-homes-for-sale|commercial-properties-for-rent|commercial-properties-for-sale]
-                                  [required]
-
-Options:
-  --headers TEXT                  [default: id, price, title, propertyType]
-  --locations TEXT                [default: ireland]
-  --max-pages INTEGER             [default: 9223372036854775807]
-  --min-price INTEGER             [default: 0]
-  --max-price INTEGER             [default: 9223372036854775807]
-  --min-beds INTEGER              [default: 0]
-  --max-beds INTEGER              [default: 9223372036854775807]
-  --min-lease INTEGER             [default: 0]
-  --max-lease INTEGER             [default: 9223372036854775807]
-  --property-type [EMPTY|houses|apartments|studio-apartments]
-                                  [default: EMPTY]
-  --ad-state [published|sale-agreed]
-                                  [default: published]
-  --facility [EMPTY|alarm|cable-television|dishwasher|garden-patio-balcony|central-heating|internet|microwave|parking|pets-allowed|smoking|serviced-property|dryer|washing-machine|wheelchair-access]
-                                  [default: EMPTY]
-  --media-type [EMPTY|video|virtual-tour]
-                                  [default: EMPTY]
-  --sort [EMPTY|publishDateDesc|priceAsc|priceDesc]
-                                  [default: EMPTY]
-  --furnishing [EMPTY|furnished|unfurnished]
-                                  [default: EMPTY]
-  --help                          Show this message and exit.
