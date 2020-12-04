@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "daft-scraper"
-version = "0.1.0"
+version = "0.1.1"
 description = "A webscraper for Daft.ie"
 authors = ["Evan Smith <me@iamevan.me>"]
 license = "MIT"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.7"
