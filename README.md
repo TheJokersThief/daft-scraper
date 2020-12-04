@@ -1,5 +1,7 @@
 # daft-scraper
 
+[![TheJokersThief](https://circleci.com/gh/TheJokersThief/daft-scraper.svg?style=svg)](<LINK>)
+
 - [daft-scraper](#daft-scraper)
 - [Install](#install)
   - [Via Pip](#via-pip)
