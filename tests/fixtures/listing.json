@@ -1,0 +1,259 @@
+{
+    "listing": {
+        "id": 2315059,
+        "title": "The Elysian, Eglinton Road, Co. Cork",
+        "seoTitle": "The Elysian, Eglinton Road, Co. Cork",
+        "sections": [
+            "Property",
+            "Private Rental Sector",
+            "Apartments"
+        ],
+        "saleType": [
+            "To Let"
+        ],
+        "featuredLevel": "FEATURED",
+        "publishDate": 1607001238000,
+        "price": "From \u20ac3,328 per month",
+        "abbreviatedPrice": "\u20ac3,330+",
+        "numBedrooms": "3 bed",
+        "propertyType": "Apartments",
+        "daftShortcode": "9178631",
+        "seller": {
+            "sellerId": 9601,
+            "name": "The Elysian - Joy Meade",
+            "phone": "021-2355026",
+            "profileImage": "https://photos.cdn.dsch.ie/NmI1NTcyYTE0YmJmMTQ4YjJhMDYyOTJkNWU2ZTlmMWVj2C_-7BVoHd5EbIsFgrqLaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2YvYS9mYTI5ZGYxYTRjZjM4NmMxNGVhNjFjMWI1MTYwMTlmNi5qcGd8fHx8fHwxMDB4MTAwfHx8fA==",
+            "branch": "Kennedy Wilson",
+            "standardLogo": "https://photos.cdn.dsch.ie/OTg5ZWFlNDA5NGE1ZTkzNTRiODNjOGRlOGUyMmViYzRUjUGKEhEsOySno43QKj1iaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85ODU1OWU4NGEzZTc0ZmEwOWI1MTJiMDRhODM0ODJkY19zdGFuZGFyZC5qcGd8fDgwfHx8fHx8fHw=",
+            "squareLogo": "https://photos.cdn.dsch.ie/NmY5MTZmYTQ3MGQzNWUzYjg5NjIyNWFhNmZiMDFkMzn_8NzyAUxknT0ajfc210HmaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzEvMS8xMTg1OGEzZGQ5OTkzOTQzZDViN2NlOTA4MWQxODBmNi5qcGd8fHwxMjB8fHx8fHx8",
+            "backgroundColour": "#054573",
+            "licenceNumber": "Exempt - Property Owner",
+            "sellerType": "BRANDED_AGENT",
+            "showContactForm": true
+        },
+        "media": {
+            "images": [
+                {
+                    "size720x480": "https://photos.cdn.dsch.ie/NzM2NjJkZDRhMTAzNzBhYWMxMTc0NDEwOTVmZTI2NGLm3XkCvYinzZgdCE8vBnYRaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzcvMi83MjM0ZTEyOGRkYzIxYTcxNmQyZTcwNWZjZTA1ODZiNy5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                    "size600x600": "https://photos.cdn.dsch.ie/NjFjM2E2NzFiNjYyZjg5ODhhZjc0ZDJhMDI3ZWVmYWa51iNjhBqk6gGfodfIrnc5aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzcvMi83MjM0ZTEyOGRkYzIxYTcxNmQyZTcwNWZjZTA1ODZiNy5qcGd8fHw2MDB8fHx8fHx8",
+                    "size400x300": "https://photos.cdn.dsch.ie/ZDJjZTJiYTIwNjZkY2MxMzUwMzczODQ1ZGFlMTFhMzGM1Z6obMt0q3HoJZA7ivnnaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzcvMi83MjM0ZTEyOGRkYzIxYTcxNmQyZTcwNWZjZTA1ODZiNy5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                    "size360x240": "https://photos.cdn.dsch.ie/MTA2MWU3Y2U4MDY0MjBkYzYxY2ZiODQ1NzU2ZjRkZWMz1ajuroMHuspTP7bqZuECaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzcvMi83MjM0ZTEyOGRkYzIxYTcxNmQyZTcwNWZjZTA1ODZiNy5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                    "size300x200": "https://photos.cdn.dsch.ie/OWFiY2YzZjI4OTgxMmVhZjc1ODQ2MjhkMDgyYWE5NzhzC8E-7LobeZ6v2931PNEyaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzcvMi83MjM0ZTEyOGRkYzIxYTcxNmQyZTcwNWZjZTA1ODZiNy5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                    "size320x280": "https://photos.cdn.dsch.ie/NTAxM2MxMGY0NTIwYTg2MTFiNDk2ZGZlZDY2ZDlmN2RQWVVhupbXfJf4uAD2wYPhaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzcvMi83MjM0ZTEyOGRkYzIxYTcxNmQyZTcwNWZjZTA1ODZiNy5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                    "size72x52": "https://photos.cdn.dsch.ie/Mjk3N2U4MDEwNjYxOGIxMjk5Yjg3NDQwZDcwZTQ3ODUq5iHmnk-Le132HLYCYV_7aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzcvMi83MjM0ZTEyOGRkYzIxYTcxNmQyZTcwNWZjZTA1ODZiNy5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                    "size680x392": "https://photos.cdn.dsch.ie/NTE3OTg5NzIxNDYyN2M4N2YyZGExMjFlODg1YWRhYTa6AZhTgY7l7AOUq8L4xcFRaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzcvMi83MjM0ZTEyOGRkYzIxYTcxNmQyZTcwNWZjZTA1ODZiNy5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                },
+                {
+                    "size720x480": "https://photos.cdn.dsch.ie/ZjA5OWFiM2I2OTI5YWU1ZDQ2MjMyMDcxZjhkOTE3NmJPxtIYZVVMKWQfiMNqVEL-aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvMC9hMGYxMmJlNDZlYjMxY2QxM2UzMjJkNWIzZWRjZDNlNy5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                    "size600x600": "https://photos.cdn.dsch.ie/MjM0ZmJiZjY5OTEzMzdmYmQ2YzA3OGRiNGMyM2Y5M2S8lv4AweQyDKLMZQY_kRFdaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvMC9hMGYxMmJlNDZlYjMxY2QxM2UzMjJkNWIzZWRjZDNlNy5qcGd8fHw2MDB8fHx8fHx8",
+                    "size400x300": "https://photos.cdn.dsch.ie/Yjc2MWJlZDljNzk5MzEzNzQ4MGZmZWZkZGNiZTg5MGQYnZ5lYTGCrx8-s-wHOH3KaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvMC9hMGYxMmJlNDZlYjMxY2QxM2UzMjJkNWIzZWRjZDNlNy5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                    "size360x240": "https://photos.cdn.dsch.ie/NjAyNzE4YzcxZmUxNWI4ODFhYWZmODk4MzhmN2VkYTQMLuutWsLIxYMmYGrvZuzTaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvMC9hMGYxMmJlNDZlYjMxY2QxM2UzMjJkNWIzZWRjZDNlNy5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                    "size300x200": "https://photos.cdn.dsch.ie/YmVmYTE2MDg5MDZlMTI4YjI0ZjY5ZWJhNTk0NDU3ZGQc8xP9gSdnj2TsgRTNiR6laHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvMC9hMGYxMmJlNDZlYjMxY2QxM2UzMjJkNWIzZWRjZDNlNy5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                    "size320x280": "https://photos.cdn.dsch.ie/OThjNTVhOTNmYmZjNmRjYzAwY2EzZmM2NDFmODI3MDeCn0BQeExjR313gFlHY4PvaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvMC9hMGYxMmJlNDZlYjMxY2QxM2UzMjJkNWIzZWRjZDNlNy5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                    "size72x52": "https://photos.cdn.dsch.ie/ZTdmYTc0Nzg3OWNkZThlOTU2NmY5ZjJmYzY5MzM0NWTMLFNNrbX6zscx0sJvxKYWaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvMC9hMGYxMmJlNDZlYjMxY2QxM2UzMjJkNWIzZWRjZDNlNy5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                    "size680x392": "https://photos.cdn.dsch.ie/OGFhNzZiYWMyYzcwYTYxNTA4NjNhODAzYWE1OTZiMjNrLV7cE7-ZO-YVGbLGbQubaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvMC9hMGYxMmJlNDZlYjMxY2QxM2UzMjJkNWIzZWRjZDNlNy5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                },
+                {
+                    "size720x480": "https://photos.cdn.dsch.ie/Yjc4YzZmNTE1MTg5NDczMWI2OWI4ZjRjODVkY2M3MDZL2DUKbw2ANJHmEgDg8ET9aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNS85NWNiOTEwZTI3YzM3OTI1YmI0NmIzN2RjZDcyOWU2ZS5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                    "size600x600": "https://photos.cdn.dsch.ie/OGViMjg2ODAyZDk3YmY0YmJhNzhiOGE3MWJjN2RlZmFGQ3CUE_JMi-g0UIxPAqHcaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNS85NWNiOTEwZTI3YzM3OTI1YmI0NmIzN2RjZDcyOWU2ZS5qcGd8fHw2MDB8fHx8fHx8",
+                    "size400x300": "https://photos.cdn.dsch.ie/Y2Q3YjMxNjFlNzE2NTE4ZTU0Y2QxOGUyOGEyNzVhODBpmCWbcrUWxZ5M-R6BhkEMaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNS85NWNiOTEwZTI3YzM3OTI1YmI0NmIzN2RjZDcyOWU2ZS5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                    "size360x240": "https://photos.cdn.dsch.ie/YjQ3MTEzZTIxMzJiY2MyNDE2YjA0YWVkMTdiM2E1YTUswNA38pHr0b14iF3B0U61aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNS85NWNiOTEwZTI3YzM3OTI1YmI0NmIzN2RjZDcyOWU2ZS5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                    "size300x200": "https://photos.cdn.dsch.ie/NmNmNWQyMDJkYjY5MmRkZTk1ZTM2MWFhNDQ0N2E2ZWHFQAiwpV_qzZIQQgooR9S2aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNS85NWNiOTEwZTI3YzM3OTI1YmI0NmIzN2RjZDcyOWU2ZS5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                    "size320x280": "https://photos.cdn.dsch.ie/MTkwNTc5OGVhOTUxZWZmODU3MzEwYTMwMzk0N2VhZDSFE9i0daw1fyoEFyajvDwKaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNS85NWNiOTEwZTI3YzM3OTI1YmI0NmIzN2RjZDcyOWU2ZS5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                    "size72x52": "https://photos.cdn.dsch.ie/MDZlZjk0MTYxN2FlYjQ5YjY4YWMyMjY0ZjA3MWZmYWOmjl0TAym-Rp3AVc60HDXXaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNS85NWNiOTEwZTI3YzM3OTI1YmI0NmIzN2RjZDcyOWU2ZS5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                    "size680x392": "https://photos.cdn.dsch.ie/NGZmMDg2MGViYjNjMzc1YTk1NGVlMTUyM2U4NzYzNGZAP1Eb0aS8dm-60BjEbOV0aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNS85NWNiOTEwZTI3YzM3OTI1YmI0NmIzN2RjZDcyOWU2ZS5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                },
+                {
+                    "size720x480": "https://photos.cdn.dsch.ie/YTU5ZjM0Y2Y3NTI5M2VlMTRhNWQ4ZjZlZjQ5OGM5N2HufePmUZVSYiO6nCwocqULaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85OGNiOWJkZTFkNmQzMDU1MGJhZWQ3Y2M2N2UyZmFiNy5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                    "size600x600": "https://photos.cdn.dsch.ie/MzlmOWM1ZTc2YmUwM2FhZjEyODU0YjU4NDU3YjIyMmTL8utPueIwN30e3lOLkb-maHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85OGNiOWJkZTFkNmQzMDU1MGJhZWQ3Y2M2N2UyZmFiNy5qcGd8fHw2MDB8fHx8fHx8",
+                    "size400x300": "https://photos.cdn.dsch.ie/NmUzODBmMzA3ZTRmYmMyMWZkY2E4ZDY3YmU0OTliNTIiNlVafwu5fuHTkszBCPw6aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85OGNiOWJkZTFkNmQzMDU1MGJhZWQ3Y2M2N2UyZmFiNy5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                    "size360x240": "https://photos.cdn.dsch.ie/Yjc0MGQwYzZlYmMxNTA3ZjhhYWY4NjFjODMxYzkwODDiN5kEB-6VGEPruCqWXA0-aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85OGNiOWJkZTFkNmQzMDU1MGJhZWQ3Y2M2N2UyZmFiNy5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                    "size300x200": "https://photos.cdn.dsch.ie/ZWUwMjdhNTJhNTg4MThhNjU2OWRiYjdmMGM2YmE0MDYeGOVtdE5-hdKxW2ifVZKfaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85OGNiOWJkZTFkNmQzMDU1MGJhZWQ3Y2M2N2UyZmFiNy5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                    "size320x280": "https://photos.cdn.dsch.ie/ZjhlZjc1NDkxZTRmYzkxNWRlYzgyMzlmNGNkYzg0Zja80kpVCt84ZMw0FJNoj_aIaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85OGNiOWJkZTFkNmQzMDU1MGJhZWQ3Y2M2N2UyZmFiNy5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                    "size72x52": "https://photos.cdn.dsch.ie/Zjc3YzYxNmU0NDUwOGY4YzI2ODA4MjljOWY2NTUyOTF1wnLeEAEGtT9NVJ1RfMstaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85OGNiOWJkZTFkNmQzMDU1MGJhZWQ3Y2M2N2UyZmFiNy5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                    "size680x392": "https://photos.cdn.dsch.ie/MGNkNzUyZWUzMDdjNDA1ODA4NzNjNWZjNDcyNWYxODV5PmmBqP5BhNG7fay-iwOIaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85OGNiOWJkZTFkNmQzMDU1MGJhZWQ3Y2M2N2UyZmFiNy5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                }
+            ],
+            "totalImages": 80,
+            "hasVideo": false,
+            "hasVirtualTour": false,
+            "hasBrochure": false
+        },
+        "ber": {
+            "rating": "B2"
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -8.465369666409304,
+                51.89638321328515
+            ]
+        },
+        "seoFriendlyPath": "/for-rent/the-elysian-eglinton-road-co-cork/2315059",
+        "prs": {
+            "totalUnitTypes": 2,
+            "subUnits": [
+                {
+                    "id": 2605808,
+                    "price": "\u20ac3,328 per month",
+                    "numBedrooms": "3 Bed",
+                    "numBathrooms": "3 Bath",
+                    "propertyType": "Apartment",
+                    "daftShortcode": "22086466",
+                    "seoFriendlyPath": "/for-rent/apartment-apartment-154-the-elysian-eglinton-road-co-cork/2605808",
+                    "category": "Rent",
+                    "image": {
+                        "size1440x960": "https://photos.cdn.dsch.ie/NDkyZmQ1Nzg1NDg1NmE4MTRkZmU5MTQzZWUxN2I5NzD1fWaGiRWac2SJnVWIwNcXaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHwxNDQweDk2MHx8fHw=",
+                        "size1200x1200": "https://photos.cdn.dsch.ie/NDk4ZmY3NzM5YzM0NTQzZWQ5NzgxNDlmNjE3ZmJlMGHhoKFR1rh4Shy7LjkT66FPaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHwxMjAwfHx8fHx8fA==",
+                        "size720x480": "https://photos.cdn.dsch.ie/MzUyNmViNmVjYzdkMDk5NGRkMDJhNjE0ZDRkNzVmMWHtZ2YvDep7yfuWWVSBLH9aaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                        "size600x600": "https://photos.cdn.dsch.ie/ZmVjZWQyZTRkNmQ1YTViNjU2MTc4YjBiNzVkYzY3OWQzfFbiF8gTizPSv5qEaeJ1aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHw2MDB8fHx8fHx8",
+                        "size400x300": "https://photos.cdn.dsch.ie/NzhmOTA4YjFiZDg1ZGRiOWUyYjg1MjFlYmVkOTI3NzN9MDh-SkdzPOAidPgfAo9CaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                        "size360x240": "https://photos.cdn.dsch.ie/YjMwMzU3ODQ3MDQwMTNiNzY4ZmI5YzkwOTIwOWRlMGTXzDpCmw2YRCalqXuY-qVAaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                        "size300x200": "https://photos.cdn.dsch.ie/ZDNlYWE3Y2ZmOTAzOTQwNDU3ZTFmMzUzM2RjNDQ1MTj3Bs_A2TuEZY0fTtDME15yaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                        "size320x280": "https://photos.cdn.dsch.ie/ZDA4YTZhMGEzN2E1NDNhMTdlZGZiYWJmYjc5ZGM0YznnaGrcF7ESp1BJU40Bz2DzaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                        "size72x52": "https://photos.cdn.dsch.ie/MTEwNWVlYTdiOWUyN2EyZTU4YTIyOTc3NjI5Mjk0OTSPmyhMfret0lZr_d7btQGXaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                        "size680x392": "https://photos.cdn.dsch.ie/YmJmMjhiNzZkNGVkM2JmNGUxNzBlNDA3MmYyNTEyNmbZDqCNiMIzravxpa_jhJueaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                    },
+                    "media": {
+                        "images": [
+                            {
+                                "size720x480": "https://photos.cdn.dsch.ie/MzUyNmViNmVjYzdkMDk5NGRkMDJhNjE0ZDRkNzVmMWHtZ2YvDep7yfuWWVSBLH9aaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                                "size600x600": "https://photos.cdn.dsch.ie/ZmVjZWQyZTRkNmQ1YTViNjU2MTc4YjBiNzVkYzY3OWQzfFbiF8gTizPSv5qEaeJ1aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHw2MDB8fHx8fHx8",
+                                "size400x300": "https://photos.cdn.dsch.ie/NzhmOTA4YjFiZDg1ZGRiOWUyYjg1MjFlYmVkOTI3NzN9MDh-SkdzPOAidPgfAo9CaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                                "size360x240": "https://photos.cdn.dsch.ie/YjMwMzU3ODQ3MDQwMTNiNzY4ZmI5YzkwOTIwOWRlMGTXzDpCmw2YRCalqXuY-qVAaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                                "size300x200": "https://photos.cdn.dsch.ie/ZDNlYWE3Y2ZmOTAzOTQwNDU3ZTFmMzUzM2RjNDQ1MTj3Bs_A2TuEZY0fTtDME15yaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                                "size320x280": "https://photos.cdn.dsch.ie/ZDA4YTZhMGEzN2E1NDNhMTdlZGZiYWJmYjc5ZGM0YznnaGrcF7ESp1BJU40Bz2DzaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                                "size72x52": "https://photos.cdn.dsch.ie/MTEwNWVlYTdiOWUyN2EyZTU4YTIyOTc3NjI5Mjk0OTSPmyhMfret0lZr_d7btQGXaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                                "size680x392": "https://photos.cdn.dsch.ie/YmJmMjhiNzZkNGVkM2JmNGUxNzBlNDA3MmYyNTEyNmbZDqCNiMIzravxpa_jhJueaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvZC9iZDY0NGRlZDNlYzE4Zjg2YjVmOGVlMGU0ZDljYThmZS5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                            },
+                            {
+                                "size720x480": "https://photos.cdn.dsch.ie/YjcyNGMwZTgzOWU2N2Y5NjA5MmMyZmUwOGIzMGQ2MmHxsR6ID5HbLFRo1NqEjRdEaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzgvYS84YTU2MWNkZjEwYWUxZTI0MWQ1ZjgwZDQ2NWNiMWVkNy5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                                "size600x600": "https://photos.cdn.dsch.ie/NGY4Y2Y4MGI0MGFhMmMzNTJlMDRlY2JjZWY4ODRkOWWYQFFbfRaTBrf3QWOgJJfWaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzgvYS84YTU2MWNkZjEwYWUxZTI0MWQ1ZjgwZDQ2NWNiMWVkNy5qcGd8fHw2MDB8fHx8fHx8",
+                                "size400x300": "https://photos.cdn.dsch.ie/OGY5YmM4ZDBhY2YyMTdmZGY3OTIzMzVkMTZmZTc0ZTjS8wZvKl5g6aAwC2bA_wS7aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzgvYS84YTU2MWNkZjEwYWUxZTI0MWQ1ZjgwZDQ2NWNiMWVkNy5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                                "size360x240": "https://photos.cdn.dsch.ie/OGY1YmI2Njc5NTUxNTA3ODVmODZkMmQwYjg4MTQ4YzIkVxQTBPK9CYwf__XRM73faHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzgvYS84YTU2MWNkZjEwYWUxZTI0MWQ1ZjgwZDQ2NWNiMWVkNy5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                                "size300x200": "https://photos.cdn.dsch.ie/MDYyMjkyMzMyODJiMGUyZjVkYThkODFhZDU4OTQyYma7MyJifJUm8n2gmiZzsnKBaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzgvYS84YTU2MWNkZjEwYWUxZTI0MWQ1ZjgwZDQ2NWNiMWVkNy5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                                "size320x280": "https://photos.cdn.dsch.ie/NGIxNWUzMzVhNzlmN2M0ZDU4NDhiZmJlMWMxYWM0YjcVbKCZSuJRRFgsqkWK7eMiaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzgvYS84YTU2MWNkZjEwYWUxZTI0MWQ1ZjgwZDQ2NWNiMWVkNy5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                                "size72x52": "https://photos.cdn.dsch.ie/MGE0MmRlYWJjMTcwMTRkODA1NTg5NjNhNjljMzA3OTk4GrQniZNwiK8OW-yMUValaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzgvYS84YTU2MWNkZjEwYWUxZTI0MWQ1ZjgwZDQ2NWNiMWVkNy5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                                "size680x392": "https://photos.cdn.dsch.ie/ZDI4NzE5MjEwNWIwODM4ODdlN2M3MzhkMzFkODExNzUrB-M42obzXiCHRdqlH2wKaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzgvYS84YTU2MWNkZjEwYWUxZTI0MWQ1ZjgwZDQ2NWNiMWVkNy5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                            },
+                            {
+                                "size720x480": "https://photos.cdn.dsch.ie/YzFmY2M0ZGQxNzdiMjY1ZTU2MjMyMDIyZmJhNTI5NTeknQ-YDTafz2gNYR38XOdvaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzQvMS80MTNiNjExM2Q0NGEyOTM2YWQxMjZkZDVhOWVlNzc5Yi5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                                "size600x600": "https://photos.cdn.dsch.ie/NDk5ZjQ0YThlMTdhOTg2ZjM1MWE0ZTY1MmU1YmY5MWP86aMXX-pVLa4GyP6sZzfpaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzQvMS80MTNiNjExM2Q0NGEyOTM2YWQxMjZkZDVhOWVlNzc5Yi5qcGd8fHw2MDB8fHx8fHx8",
+                                "size400x300": "https://photos.cdn.dsch.ie/M2FkMjJjOGFhNDNlNmQxM2E2MjVkZTJlMWE1NGZlYjbwb0oqmPb7uoD4TDQlNEyhaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzQvMS80MTNiNjExM2Q0NGEyOTM2YWQxMjZkZDVhOWVlNzc5Yi5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                                "size360x240": "https://photos.cdn.dsch.ie/Y2MwNDA3YTE0ZWFkYzgyNGU5N2MwM2EzNzY5N2IwMGYPWjjKXShfdczxl95qk4ujaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzQvMS80MTNiNjExM2Q0NGEyOTM2YWQxMjZkZDVhOWVlNzc5Yi5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                                "size300x200": "https://photos.cdn.dsch.ie/ZjkzNmFjNmQ5ODRiMWI5NzI1OGE5Nzk1NzMyNTRjNTKNIDBB6eAqFMlK0aPn7VGBaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzQvMS80MTNiNjExM2Q0NGEyOTM2YWQxMjZkZDVhOWVlNzc5Yi5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                                "size320x280": "https://photos.cdn.dsch.ie/MjMxNjZkNWEzMWFmNGYxNjkxOTQyZTdiNTQ1YTU3NGXXFBrr7zz5XMbVwx2B5_J0aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzQvMS80MTNiNjExM2Q0NGEyOTM2YWQxMjZkZDVhOWVlNzc5Yi5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                                "size72x52": "https://photos.cdn.dsch.ie/OTBlYWZlYjhkNTdlODNjZDgyNWY2NWM2YzgwMGFlYmP9PTBka49Ri9DICvhkAV0OaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzQvMS80MTNiNjExM2Q0NGEyOTM2YWQxMjZkZDVhOWVlNzc5Yi5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                                "size680x392": "https://photos.cdn.dsch.ie/ZmFhZjRhY2Y3MTYxZGRmMTYzYjYyY2Y1ZWEzZDRmMzLRtpE7KjxrV0EPMgaWiEjwaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzQvMS80MTNiNjExM2Q0NGEyOTM2YWQxMjZkZDVhOWVlNzc5Yi5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                            },
+                            {
+                                "size720x480": "https://photos.cdn.dsch.ie/ZDBjZjIxNTk3YzY1OWU4MzFkMzk5NTFlMDMwYWY3Yzn5Bragb6k1S_yn2h1FThZGaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2MvNy9jN2MyYzQ0Y2Q3NTE3NzZmNGE3MTYxYzI2YzcwOTZkZS5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                                "size600x600": "https://photos.cdn.dsch.ie/ZTVlNzMyYzU2MTA5ZGFhM2RhOTkzMzE1YmU0ODQyYjA1sQcbLBCVgDZSxzH_EhDLaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2MvNy9jN2MyYzQ0Y2Q3NTE3NzZmNGE3MTYxYzI2YzcwOTZkZS5qcGd8fHw2MDB8fHx8fHx8",
+                                "size400x300": "https://photos.cdn.dsch.ie/NDEyMTU1M2EwNjEzZGVkZWY1ZmEyMTczOWJmNDBiMzSYAWJw7Bi57HNKDSZQk5GqaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2MvNy9jN2MyYzQ0Y2Q3NTE3NzZmNGE3MTYxYzI2YzcwOTZkZS5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                                "size360x240": "https://photos.cdn.dsch.ie/ZTc0M2VlZjY3OGRmZmU3ZjM5N2MwNDVlNzBkNTI4MDOaII1gAC1k8ftfzWyHNDhCaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2MvNy9jN2MyYzQ0Y2Q3NTE3NzZmNGE3MTYxYzI2YzcwOTZkZS5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                                "size300x200": "https://photos.cdn.dsch.ie/ZGRmYjI2NzRmOTM4NjFiYWNmZWY4NGJiZjdkODQ1ZDBbpVnxyczpjJGrQB_gJo-gaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2MvNy9jN2MyYzQ0Y2Q3NTE3NzZmNGE3MTYxYzI2YzcwOTZkZS5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                                "size320x280": "https://photos.cdn.dsch.ie/YmUzZjc1NDQ4MjU2ZmYzMmEwOWJhZWYzYzNlMGFmYmYYjUwDSN7yWOSYMWl0d7AtaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2MvNy9jN2MyYzQ0Y2Q3NTE3NzZmNGE3MTYxYzI2YzcwOTZkZS5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                                "size72x52": "https://photos.cdn.dsch.ie/MjY1YTlkMzJlNDkzNWVlN2IyODc0NDExNDZlYjI5OWMQOBYhJiFxwcs-7CxYNj95aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2MvNy9jN2MyYzQ0Y2Q3NTE3NzZmNGE3MTYxYzI2YzcwOTZkZS5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                                "size680x392": "https://photos.cdn.dsch.ie/ZWUyMjlhMDM0MTFlNTFiZjJiZDM1NmUyY2QxNjVhNjFrmB8JV9oke-6OEJJmro1eaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2MvNy9jN2MyYzQ0Y2Q3NTE3NzZmNGE3MTYxYzI2YzcwOTZkZS5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                            }
+                        ],
+                        "totalImages": 12,
+                        "hasVideo": false,
+                        "hasVirtualTour": false,
+                        "hasBrochure": false
+                    },
+                    "ber": {
+                        "rating": "B2"
+                    }
+                },
+                {
+                    "id": 2605928,
+                    "price": "\u20ac3,370 per month",
+                    "numBedrooms": "3 Bed",
+                    "numBathrooms": "4 Bath",
+                    "propertyType": "Apartment",
+                    "daftShortcode": "22086524",
+                    "seoFriendlyPath": "/for-rent/apartment-apartment-115-the-elysian-eglinton-road-co-cork/2605928",
+                    "category": "Rent",
+                    "image": {
+                        "size1440x960": "https://photos.cdn.dsch.ie/NDI5NWRjNjJiMTM5MjcwNGJhZDNiYWY2YmFiZjc5OGWQZHb-XKMjMrESygvEhGPwaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHwxNDQweDk2MHx8fHw=",
+                        "size1200x1200": "https://photos.cdn.dsch.ie/NzJiMTc3NWNlYTU3OWNiYzQzNTBlZTc1ZWJmZGMxZmQiYKTly6xru5DtoteO7LJsaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHwxMjAwfHx8fHx8fA==",
+                        "size720x480": "https://photos.cdn.dsch.ie/YmM3MzBhMDg1MzBhZTY2NTI0ODVmNTY1MTdmNTc5OGLs-uJy2StFUewFuMTdNu4YaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                        "size600x600": "https://photos.cdn.dsch.ie/MmVkNjg3ZGEwMzYwMThhNGNiN2I4YTZmMGJlZGIxMjHejtNJjhh04ER7YZjbuNnKaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHw2MDB8fHx8fHx8",
+                        "size400x300": "https://photos.cdn.dsch.ie/MTg4Y2FlMzMyMTY5MjBmMWFkOWE4ZmI1NjA1Njc2MWSZ70nH2UxTCapznquhxuOPaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                        "size360x240": "https://photos.cdn.dsch.ie/Y2M1ODYyZThlZGI2YTZlMzliNTIyMjAxOThkMjY1NWVMGTZn2Alwy-UpAOfavYdzaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                        "size300x200": "https://photos.cdn.dsch.ie/MDlkNjRmMjhkMDM3M2MyZjAwMjhmZmRmZDY3YjRjNTQ9GuqW-Oxuc-y_ix4viHRHaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                        "size320x280": "https://photos.cdn.dsch.ie/NzYwZmRmNzhkYWVlYzI1MjNiZDlmN2FjZjJlYzBhZWbcip55nl-F6CYowsbLCCDoaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                        "size72x52": "https://photos.cdn.dsch.ie/NWZkY2NjNjFmM2ViMzFhMzFmNjdjY2Q1ODAwNzk2ZTdHCUfHpkTEcr17MhCZRWYJaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                        "size680x392": "https://photos.cdn.dsch.ie/YmE5MWFiOTBiNGQ4ODJkYjM1ZWFiMzQ5MTEwZmIyMGKmxulf3EJOSR3KTV4-Gb0kaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                    },
+                    "media": {
+                        "images": [
+                            {
+                                "size720x480": "https://photos.cdn.dsch.ie/YmM3MzBhMDg1MzBhZTY2NTI0ODVmNTY1MTdmNTc5OGLs-uJy2StFUewFuMTdNu4YaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                                "size600x600": "https://photos.cdn.dsch.ie/MmVkNjg3ZGEwMzYwMThhNGNiN2I4YTZmMGJlZGIxMjHejtNJjhh04ER7YZjbuNnKaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHw2MDB8fHx8fHx8",
+                                "size400x300": "https://photos.cdn.dsch.ie/MTg4Y2FlMzMyMTY5MjBmMWFkOWE4ZmI1NjA1Njc2MWSZ70nH2UxTCapznquhxuOPaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                                "size360x240": "https://photos.cdn.dsch.ie/Y2M1ODYyZThlZGI2YTZlMzliNTIyMjAxOThkMjY1NWVMGTZn2Alwy-UpAOfavYdzaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                                "size300x200": "https://photos.cdn.dsch.ie/MDlkNjRmMjhkMDM3M2MyZjAwMjhmZmRmZDY3YjRjNTQ9GuqW-Oxuc-y_ix4viHRHaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                                "size320x280": "https://photos.cdn.dsch.ie/NzYwZmRmNzhkYWVlYzI1MjNiZDlmN2FjZjJlYzBhZWbcip55nl-F6CYowsbLCCDoaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                                "size72x52": "https://photos.cdn.dsch.ie/NWZkY2NjNjFmM2ViMzFhMzFmNjdjY2Q1ODAwNzk2ZTdHCUfHpkTEcr17MhCZRWYJaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                                "size680x392": "https://photos.cdn.dsch.ie/YmE5MWFiOTBiNGQ4ODJkYjM1ZWFiMzQ5MTEwZmIyMGKmxulf3EJOSR3KTV4-Gb0kaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2IvYS9iYWNhYmJhOWUzNTliZjY2ODUyODdkM2Y1N2UxNDQzYy5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                            },
+                            {
+                                "size720x480": "https://photos.cdn.dsch.ie/MGNlMDRlNDJmZmIzZjEwZmI2M2JmMjRhOGU2MTYzZmQG9OFmWavSs6xlzoYg7yxqaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNy85NzI1ZjU3MTQ2ZGFkOTc2YzQwNjI2YzE1ODc5MzkzMS5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                                "size600x600": "https://photos.cdn.dsch.ie/NDRiYTU4MzJlOGNhZmM0MzJkMDYwM2UzMzMxMTA1OWVcbELlC-2r04HQQXK_4DchaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNy85NzI1ZjU3MTQ2ZGFkOTc2YzQwNjI2YzE1ODc5MzkzMS5qcGd8fHw2MDB8fHx8fHx8",
+                                "size400x300": "https://photos.cdn.dsch.ie/Yjk4Y2ViOTM2MDUxZGY5OTllNzViZDc0ZDYxY2VlNDdmv0ywE6fKixu3SJmyMzJvaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNy85NzI1ZjU3MTQ2ZGFkOTc2YzQwNjI2YzE1ODc5MzkzMS5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                                "size360x240": "https://photos.cdn.dsch.ie/YjQ2Zjk2M2IyOGJjZWM1MWE3OTI0ODI2MmFjOWNhMzSTxK4MzUvru-OSCkZKg0MtaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNy85NzI1ZjU3MTQ2ZGFkOTc2YzQwNjI2YzE1ODc5MzkzMS5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                                "size300x200": "https://photos.cdn.dsch.ie/ZmE1NjU0MzJkM2M4N2E3Y2RhZTZlMTc3Mjk4ZDVlM2Gji5IW7PUizSn5rKMY3p9gaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNy85NzI1ZjU3MTQ2ZGFkOTc2YzQwNjI2YzE1ODc5MzkzMS5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                                "size320x280": "https://photos.cdn.dsch.ie/YjczN2UyMzIyMWQxOTNlYTcxN2U3NmVlYzlkYzI5NzTWwVdsMpcB7GdpccTCWHm4aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNy85NzI1ZjU3MTQ2ZGFkOTc2YzQwNjI2YzE1ODc5MzkzMS5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                                "size72x52": "https://photos.cdn.dsch.ie/MTVhNDE0YmZhYjY1ZTY4YzUwZGY4Y2E1ODJkYzU3ZGO-66eBzLxSDZ-ND46iPeuEaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNy85NzI1ZjU3MTQ2ZGFkOTc2YzQwNjI2YzE1ODc5MzkzMS5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                                "size680x392": "https://photos.cdn.dsch.ie/ODZmNjViMmE5OTE3MzQ1ZDM3MTI2YmViMDA1ODE4NjABB3fPDTAlx0_cwmZp3lVsaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvNy85NzI1ZjU3MTQ2ZGFkOTc2YzQwNjI2YzE1ODc5MzkzMS5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                            },
+                            {
+                                "size720x480": "https://photos.cdn.dsch.ie/ZDY2YzU2NjQwZjBlNWQ1ZjFmMmIwMzExNDcyMzAxODNKiE2RHFtJo59DW3b0GnoNaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzAvNC8wNGFjYjdlOGU1OGE4OWMxZTFmZTg3Mjk1YjY1NzYzNi5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                                "size600x600": "https://photos.cdn.dsch.ie/OWE2NzUwYTNiZGJiODY4Y2YxZjMyOWZkODlmODZmZWE9fvKYLEFRQnSE7TO2_uKCaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzAvNC8wNGFjYjdlOGU1OGE4OWMxZTFmZTg3Mjk1YjY1NzYzNi5qcGd8fHw2MDB8fHx8fHx8",
+                                "size400x300": "https://photos.cdn.dsch.ie/MzYxZjFmZDUzM2VhYjlkMGJkMTZiZWRhOWI0MTI5ZmbDFVx-aglAaTO-5qIXdYMNaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzAvNC8wNGFjYjdlOGU1OGE4OWMxZTFmZTg3Mjk1YjY1NzYzNi5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                                "size360x240": "https://photos.cdn.dsch.ie/N2ZjZDFlNDRkOWZhZmFhMzlkNTlmZDY0NzZmYzExYTA4rI-5QMyspWGroUc4kYGHaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzAvNC8wNGFjYjdlOGU1OGE4OWMxZTFmZTg3Mjk1YjY1NzYzNi5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                                "size300x200": "https://photos.cdn.dsch.ie/MDU3YjljMTdlNTFlODQ2Y2FmNTQ5M2Y3N2E1YTJlOTnHLe94udJS_RurjIPsnGpPaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzAvNC8wNGFjYjdlOGU1OGE4OWMxZTFmZTg3Mjk1YjY1NzYzNi5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                                "size320x280": "https://photos.cdn.dsch.ie/MTNkYTcwMjYzNWFlYWJlODE1ODI4OWVlMTg3MmNmNjB5lvm70jZVu-hYpT6Vr525aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzAvNC8wNGFjYjdlOGU1OGE4OWMxZTFmZTg3Mjk1YjY1NzYzNi5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                                "size72x52": "https://photos.cdn.dsch.ie/MDFhNzJlOGQ4YjViZGJjM2IxZWI1MDQ0MDNmZTczM2WMuSwR3heAOKVTTOz-QggzaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzAvNC8wNGFjYjdlOGU1OGE4OWMxZTFmZTg3Mjk1YjY1NzYzNi5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                                "size680x392": "https://photos.cdn.dsch.ie/NGRjMmJlODNiNzYyYTJkM2MyOWMzM2QzZDA4OWE0ZDFmXl0tc_d7nvw8e3_clYn3aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzAvNC8wNGFjYjdlOGU1OGE4OWMxZTFmZTg3Mjk1YjY1NzYzNi5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                            },
+                            {
+                                "size720x480": "https://photos.cdn.dsch.ie/YTRjYWRhMmIzNjdmMzM5MGE2NmNlYmQyYzM3NGUwNza9owWRlxzikFGwWVMxmCa3aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2UvNC9lNDJiNGIxZDg1MzU1YzcxMWMzNzIwZmU2ZjZlZDg3Zi5qcGd8fHx8fHw3MjB4NDgwfHx8fA==",
+                                "size600x600": "https://photos.cdn.dsch.ie/ZmQyNDM3NDk3ZTAxOTBlZWZkYTU2M2UyNWQzYWIxZDdx2z1hDEktqwVmee__Xus9aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2UvNC9lNDJiNGIxZDg1MzU1YzcxMWMzNzIwZmU2ZjZlZDg3Zi5qcGd8fHw2MDB8fHx8fHx8",
+                                "size400x300": "https://photos.cdn.dsch.ie/YjFkMzBmZGUyNDliNTFiMWQ0ODU4Y2VmMzFiNDgwMmYEGz7V1FP3awPFbkr30W51aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2UvNC9lNDJiNGIxZDg1MzU1YzcxMWMzNzIwZmU2ZjZlZDg3Zi5qcGd8fHx8fHw0MDB4MzAwfHx8fA==",
+                                "size360x240": "https://photos.cdn.dsch.ie/YmVhNGRmZjU3ZGUwOTY3OGQ2NjAzZjExMTcyMDlkYjnUBOQg33VX5MAtQL5xlc-8aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2UvNC9lNDJiNGIxZDg1MzU1YzcxMWMzNzIwZmU2ZjZlZDg3Zi5qcGd8fHx8fHwzNjB4MjQwfHx8fA==",
+                                "size300x200": "https://photos.cdn.dsch.ie/YWRmZTMyZTA5ZmRmZDFhZWE2M2NlY2Q0MDc1M2U1YmVZKfZfAodAu0ptBw97NvkvaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2UvNC9lNDJiNGIxZDg1MzU1YzcxMWMzNzIwZmU2ZjZlZDg3Zi5qcGd8fHx8fHwzMDB4MjAwfHx8fA==",
+                                "size320x280": "https://photos.cdn.dsch.ie/YjllMjQzOThhZWMwYzk0NGY0NTczMjQ1Mzc2OWRlNGVVCQbO5BzoR6lQ90F0WoE-aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2UvNC9lNDJiNGIxZDg1MzU1YzcxMWMzNzIwZmU2ZjZlZDg3Zi5qcGd8fHx8fHwzMjB4MjgwfHx8fA==",
+                                "size72x52": "https://photos.cdn.dsch.ie/NzU0YzA2YTdkZDk2MzY2ZTI0ZWM5ZjBiNzFlMDUwZjJNmUDXCJ2BaguEEGEKoMjQaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2UvNC9lNDJiNGIxZDg1MzU1YzcxMWMzNzIwZmU2ZjZlZDg3Zi5qcGd8fHx8fHw3Mng1Mnx8fHw=",
+                                "size680x392": "https://photos.cdn.dsch.ie/YWUwNjc0NWRhMWI3OWE5NzNhY2I5YzM3ZGEyNmYwMWH8U1v_Va7zSpBQ2LRYuyYJaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2UvNC9lNDJiNGIxZDg1MzU1YzcxMWMzNzIwZmU2ZjZlZDg3Zi5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+                            }
+                        ],
+                        "totalImages": 10,
+                        "hasVideo": false,
+                        "hasVirtualTour": false,
+                        "hasBrochure": false
+                    },
+                    "ber": {
+                        "rating": "B2"
+                    }
+                }
+            ],
+            "tagLine": "Outstanding Living",
+            "location": "The Elysian is a 600m walk from the South Mall & 700m to Patrick Street in Corks city centre. Kent Train Station (Intercity) is located 1km from the development offering links to Limerick and Dublin. There are extensive bus service routes around the city and fast access to the M8 motorway."
+        },
+        "pageBranding": {
+            "standardLogo": "https://photos.cdn.dsch.ie/OTg5ZWFlNDA5NGE1ZTkzNTRiODNjOGRlOGUyMmViYzRUjUGKEhEsOySno43QKj1iaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85ODU1OWU4NGEzZTc0ZmEwOWI1MTJiMDRhODM0ODJkY19zdGFuZGFyZC5qcGd8fDgwfHx8fHx8fHw=",
+            "squareLogo": "https://photos.cdn.dsch.ie/NmY5MTZmYTQ3MGQzNWUzYjg5NjIyNWFhNmZiMDFkMzn_8NzyAUxknT0ajfc210HmaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzEvMS8xMTg1OGEzZGQ5OTkzOTQzZDViN2NlOTA4MWQxODBmNi5qcGd8fHwxMjB8fHx8fHx8",
+            "backgroundColour": "#054573",
+            "squareLogos": [
+                "https://photos.cdn.dsch.ie/NmY5MTZmYTQ3MGQzNWUzYjg5NjIyNWFhNmZiMDFkMzn_8NzyAUxknT0ajfc210HmaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzEvMS8xMTg1OGEzZGQ5OTkzOTQzZDViN2NlOTA4MWQxODBmNi5qcGd8fHwxMjB8fHx8fHx8"
+            ],
+            "rectangleLogo": "https://photos.cdn.dsch.ie/OTg5ZWFlNDA5NGE1ZTkzNTRiODNjOGRlOGUyMmViYzRUjUGKEhEsOySno43QKj1iaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85ODU1OWU4NGEzZTc0ZmEwOWI1MTJiMDRhODM0ODJkY19zdGFuZGFyZC5qcGd8fDgwfHx8fHx8fHw="
+        },
+        "category": "Rent",
+        "state": "PUBLISHED"
+    },
+    "savedAd": false
+}

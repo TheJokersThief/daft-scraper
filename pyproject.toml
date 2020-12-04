@@ -10,6 +10,7 @@ python = "^3.7"
 beautifulsoup4 = "^4.9.3"
 requests = "^2.25.0"
 typer = "^0.3.2"
+marshmallow = "^3.9.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.4"
