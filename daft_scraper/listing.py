@@ -1,4 +1,6 @@
+import re
 from marshmallow import Schema, fields, INCLUDE
+from marshmallow.utils import missing
 
 
 class Seller(Schema):
@@ -36,16 +38,30 @@ class ListingPoint(Schema):
 
 
 class ListingPRS(Schema):
-    totalUnitTYpes = fields.Int()
+    totalUnitTypes = fields.Int()
     subUnits = fields.List(fields.Nested(lambda: Listing()))
     tagLine = fields.Str()
     location = fields.Str()
 
 
 class Listing(Schema):
+    PRICE_RE = re.compile(r'[0-9,]+')
+
     class Meta:
         # Include unknown fields in the deserialized output
         unknown = INCLUDE
+
+    def convert_price(self, value):
+        matches = self.PRICE_RE.findall(value)
+        if matches:
+            return int(matches[0].replace(',', ''))
+        return missing
+
+    def convert_bed_and_bath(self, value):
+        matches = re.findall(r'\d+', value)
+        if matches:
+            return int(matches[0])
+        return missing
 
     id = fields.Int(required=True)
     title = fields.Str()
@@ -57,13 +73,13 @@ class Listing(Schema):
     featuredLevel = fields.Str()
 
     publishDate = fields.Int()
-    price = fields.Str(default="-1")
+    price = fields.Method(deserialize="convert_price")
     abbreviatedPrice = fields.Str()
     category = fields.Str()
     state = fields.Str()
 
-    numBedrooms = fields.Str(default="-1")
-    numBathrooms = fields.Str(default="-1")
+    numBedrooms = fields.Method(deserialize="convert_bed_and_bath")
+    numBathrooms = fields.Method(deserialize="convert_bed_and_bath")
     propertyType = fields.Str()
     daftShortcode = fields.Str()
 
@@ -71,3 +87,4 @@ class Listing(Schema):
     media = fields.Nested(ListingMedia, default=ListingMedia())
     image = fields.Dict(keys=fields.Str(), values=fields.Str())
     ber = fields.Nested(ListingBER, default=ListingBER())
+    prs = fields.Nested(ListingPRS, default=ListingPRS())
