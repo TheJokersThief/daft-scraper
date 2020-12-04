@@ -36,10 +36,6 @@ class ListingPoint(Schema):
 
 
 class Listing(Schema):
-
-    def create_listing(self):
-        return Listing
-
     class Meta:
         # Include unknown fields in the deserialized output
         unknown = INCLUDE
