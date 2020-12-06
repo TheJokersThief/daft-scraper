@@ -40,3 +40,5 @@ export_conf:  ## Export the poetry lockfile to requirements.txt
 publish:
 	poetry build
 	poetry publish
+	git tag `poetry version -s`
+	git push --tags
