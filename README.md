@@ -43,6 +43,14 @@ from daft_scraper.search.options import (
 )
 from daft_scraper.search.options_location import LocationsOption, Location
 
+options = [
+    PropertyTypesOption([PropertyType.APARTMENT]),
+    FacilitiesOption([Facility.PARKING, Facility.SERVICED_PROPERTY]),
+    LocationsOption([Location.SWORDS_DUBLIN]),
+    PriceOption(0, 1000),
+    BedOption(1, 4),
+]
+
 api = DaftSearch(SearchType.RENT)
 listings = api.search(options)
 
