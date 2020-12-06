@@ -20,7 +20,7 @@ class TestDaftScraper(unittest.TestCase):
             got = Listing().load(json.load(fixture)['listing'])
 
         self.assertEqual(got.get('id'), 2315059)
-        self.assertEqual(got.get('price'), 3328)
+        self.assertEqual(got.get('price'), 14443.52)
         self.assertEqual(got.get('numBedrooms'), 3)
         self.assertEqual(got.get('numBathrooms'), None)
 

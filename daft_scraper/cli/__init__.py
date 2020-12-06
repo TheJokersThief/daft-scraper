@@ -18,7 +18,7 @@ app = typer.Typer()
 @app.command()
 def search(
     search_type: SearchType,
-    headers: List[str] = ['id', 'price', 'title', 'propertyType'],
+    headers: List[str] = ['id', 'price', 'title', 'propertyType', 'url'],
     location: List[str] = [Location.ALL.value],
     max_pages: int = sys.maxsize,
     min_price: int = 0,

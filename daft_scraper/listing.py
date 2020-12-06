@@ -1,5 +1,5 @@
 import re
-from marshmallow import Schema, fields, INCLUDE
+from marshmallow import Schema, fields, INCLUDE, post_load
 from marshmallow.utils import missing
 
 
@@ -52,6 +52,7 @@ class ListingPRS(Schema):
 
 
 class Listing(Schema):
+    URL_BASE = "https://daft.ie"
     PRICE_RE = re.compile(r'[0-9,]+')
 
     class Meta:
@@ -61,7 +62,10 @@ class Listing(Schema):
     def convert_price(self, value):
         matches = self.PRICE_RE.findall(value)
         if matches:
-            return int(matches[0].replace(',', ''))
+            price_int = int(matches[0].replace(',', ''))
+            if "week" in value:
+                price_int *= 4.34
+            return price_int
         return missing
 
     def convert_bed_and_bath(self, value):
@@ -69,6 +73,14 @@ class Listing(Schema):
         if matches:
             return int(matches[0])
         return missing
+
+    def get_url(self, seo_friendly_path):
+        return "".join([self.URL_BASE, seo_friendly_path])
+
+    @post_load
+    def post_load(self, data, **kwargs):
+        data['url'] = self.get_url(data['seoFriendlyPath'])
+        return data
 
     id = fields.Int()
     title = fields.Str()
