@@ -4167,5 +4167,5 @@ class LocationsOption(Option):
             return {}
 
         return {
-            "Location": [location.value for location in self.locations]
+            "location": [location.value for location in self.locations]
         }
