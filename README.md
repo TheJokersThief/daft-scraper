@@ -54,28 +54,28 @@ To install the CLI, clone the repo and install the dependencies with `make insta
 
 ```
 $ poetry run daft search --max-pages 1 property-for-rent --location cork --location galway
-     id    price  title                                                                    propertyType
--------  -------  -----------------------------------------------------------------------  --------------
-2315059     3328  The Elysian, Eglinton Road, Co. Cork                                     Apartments
-2588837      570  Parchment Square, Model Farm Road, Cork, Co. Cork                        Apartments
-2310295      175  Nido Curraheen Point, Farranlea Road, Co. Cork                           Apartments
-2292251      220  From Here - Student Living, Galway Central, Fairgreen Road, Co. Galway   Apartments
-2590894      495  BUNK CO LIVING, Kiltartan house Forster Street, Co. Galway               Apartments
-2575994      650  Steelworks, 9/10 Copley Street, Ballintemple, Cork City, Cork, Co. Cork  Apartments
-2327420      237  Lee Point, South Main Street, Co. Cork                                   Apartments
-2751036     2400  16A The Long Walk, Co. Galway                                            House
-2745585     1588  Wellington Road, Co. Cork                                                Apartment
-2626561     2800  3 Saint Joseph's Terrace, Gould Street, Co. Cork                         House
-2737101     1800  CHURCHFIELDS SALTHILL, Salthill, Co. Galway                              House
-2759058     1400  24 Rutland Place, South Terrace, Co. Cork                                Apartment
-2629695     1750  56 Caiseal Cam, Roscam, Co. Galway                                       House
-2737848     1500  Dark Rd, Kilcolgan, Co. Galway                                           House
-2737834     1800  11 Shangort Park, Knocknacarra, Co. Galway                               House
-2757337      950  Apartment 3, 13 Harbour Row, Cobh, Co. Cork                              House
-2756288     4500  Meizelljob, Coast Road, Fountainstown, Co. Cork                          House
-2756231     1500  Garrai De Brun, Fort Lorenzo, Taylor's Hill, Co. Galway                  House
-2632714     1650  3 Bothar An tSlÃ©ibhe, Moycullen, Co. Galway                             House
-2750256     1900  Grealishtown, Bohermore, Co. Galway                                      House
+     id    price  title                                                                    propertyType    url
+-------  -------  -----------------------------------------------------------------------  --------------  --------------------------------------------------------------------------------------------------
+2315059  3328     The Elysian, Eglinton Road, Co. Cork                                     Apartments      https://daft.ie/for-rent/the-elysian-eglinton-road-co-cork/2315059
+2588837   570     Parchment Square, Model Farm Road, Cork, Co. Cork                        Apartments      https://daft.ie/for-rent/parchment-square-model-farm-road-cork-co-cork/2588837
+2310295   759.5   Nido Curraheen Point, Farranlea Road, Co. Cork                           Apartments      https://daft.ie/for-rent/nido-curraheen-point-farranlea-road-co-cork/2310295
+2292251   954.8   From Here - Student Living, Galway Central, Fairgreen Road, Co. Galway   Apartments      https://daft.ie/for-rent/from-here-student-living-galway-central-fairgreen-road-co-galway/2292251
+2590894   495     BUNK CO LIVING, Kiltartan house Forster Street, Co. Galway               Apartments      https://daft.ie/for-rent/bunk-co-living-kiltartan-house-forster-street-co-galway/2590894
+2575994   650     Steelworks, 9/10 Copley Street, Ballintemple, Cork City, Cork, Co. Cork  Apartments      https://daft.ie/for-rent/steelworks-9-10-copley-street-ballintemple-cork-city-cork-co-cork/2575994
+2327420  1028.58  Lee Point, South Main Street, Co. Cork                                   Apartments      https://daft.ie/for-rent/lee-point-south-main-street-co-cork/2327420
+2751036  2400     16A The Long Walk, Co. Galway                                            House           https://daft.ie/for-rent/house-16a-the-long-walk-co-galway/2751036
+2745585  1588     Wellington Road, Co. Cork                                                Apartment       https://daft.ie/for-rent/apartment-wellington-road-co-cork/2745585
+2626561  2800     3 Saint Joseph's Terrace, Gould Street, Co. Cork                         House           https://daft.ie/for-rent/house-3-saint-josephs-terrace-gould-street-co-cork/2626561
+2737101  1800     CHURCHFIELDS SALTHILL, Salthill, Co. Galway                              House           https://daft.ie/for-rent/house-churchfields-salthill-salthill-co-galway/2737101
+2759058  1400     24 Rutland Place, South Terrace, Co. Cork                                Apartment       https://daft.ie/for-rent/apartment-24-rutland-place-south-terrace-co-cork/2759058
+2629695  1750     56 Caiseal Cam, Roscam, Co. Galway                                       House           https://daft.ie/for-rent/house-56-caiseal-cam-roscam-co-galway/2629695
+2737848  1500     Dark Rd, Kilcolgan, Co. Galway                                           House           https://daft.ie/for-rent/house-dark-rd-kilcolgan-co-galway/2737848
+2758935  1200     Hollyville, Turners Cross, Co. Cork                                      House           https://daft.ie/for-rent/house-hollyville-turners-cross-co-cork/2758935
+2737834  1800     11 Shangort Park, Knocknacarra, Co. Galway                               House           https://daft.ie/for-rent/house-11-shangort-park-knocknacarra-co-galway/2737834
+2757337   950     Apartment 3, 13 Harbour Row, Cobh, Co. Cork                              House           https://daft.ie/for-rent/house-apartment-3-13-harbour-row-cobh-co-cork/2757337
+2756288  4500     Meizelljob, Coast Road, Fountainstown, Co. Cork                          House           https://daft.ie/for-rent/house-meizelljob-coast-road-fountainstown-co-cork/2756288
+2756231  1500     Garrai De Brun, Fort Lorenzo, Taylor's Hill, Co. Galway                  House           https://daft.ie/for-rent/house-garrai-de-brun-fort-lorenzo-taylors-hill-co-galway/2756231
+2632714  1650     3 Bothar An tSlÃ©ibhe, Moycullen, Co. Galway                             House           https://daft.ie/for-rent/house-3-bothar-an-tsl-ibhe-moycullen-co-galway/2632714
 ```
 
 ## `search` command
