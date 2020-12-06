@@ -38,7 +38,7 @@ class TestDaftScraper(unittest.TestCase):
         wanted = {
             'propertyType': ['apartments'],
             'facilities': ['parking', 'serviced-property'],
-            'Location': ['swords-dublin'],
+            'location': ['swords-dublin'],
             'rentalPrice_from': 0,
             'rentalPrice_to': 1000,
             'numBeds_from': 1,
