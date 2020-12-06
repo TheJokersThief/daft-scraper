@@ -1,5 +1,9 @@
 # daft-scraper
 
+A python library for scraping housing data from Daft.ie.
+
+_Inspired by the wonderful [daftlistings library](https://github.com/AnthonyBloomer/daftlistings)._
+
 [![TheJokersThief](https://circleci.com/gh/TheJokersThief/daft-scraper.svg?style=svg)](<LINK>)
 
 - [daft-scraper](#daft-scraper)
@@ -49,6 +53,8 @@ for listing in listings:
 ```
 
 # Using the CLI
+
+The CLI is included as an easy way for me test things and get some quick results :) Let me know if you have any suggestions!
 
 To install the CLI, clone the repo and install the dependencies with `make install`.
 
