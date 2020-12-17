@@ -4,6 +4,10 @@ from marshmallow.utils import missing
 
 
 class Seller(Schema):
+    class Meta:
+        # Include unknown fields in the deserialized output
+        unknown = INCLUDE
+
     sellerId = fields.Int()
     name = fields.Str()
     address = fields.Str()
@@ -23,6 +27,10 @@ class Seller(Schema):
 
 
 class ListingMedia(Schema):
+    class Meta:
+        # Include unknown fields in the deserialized output
+        unknown = INCLUDE
+
     images = fields.List(fields.Dict(keys=fields.Str(), values=fields.Str()), default=[])
 
     totalImages = fields.Int()
@@ -32,17 +40,29 @@ class ListingMedia(Schema):
 
 
 class ListingBER(Schema):
+    class Meta:
+        # Include unknown fields in the deserialized output
+        unknown = INCLUDE
+
     rating = fields.Str()
     code = fields.Str()
     epi = fields.Str()
 
 
 class ListingPoint(Schema):
+    class Meta:
+        # Include unknown fields in the deserialized output
+        unknown = INCLUDE
+
     point_type = fields.Str(data_key="type")
     coordinates = fields.List(fields.Int())
 
 
 class ListingPRS(Schema):
+    class Meta:
+        # Include unknown fields in the deserialized output
+        unknown = INCLUDE
+
     totalUnitTypes = fields.Int()
     subUnits = fields.List(fields.Nested(lambda: Listing()))
     tagLine = fields.Str()
