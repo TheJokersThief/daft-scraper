@@ -18,9 +18,13 @@ class PriceOption(Option):
 
     def get_params(self):
         return {
-            f"{PriceOption.PARAM_KEY}_from": self.min,
-            f"{PriceOption.PARAM_KEY}_to": self.max,
+            f"{self.PARAM_KEY}_from": self.min,
+            f"{self.PARAM_KEY}_to": self.max,
         }
+
+
+class SalePriceOption(PriceOption):
+    PARAM_KEY = "salePrice"
 
 
 @dataclass
