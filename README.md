@@ -1,5 +1,9 @@
 # daft-scraper
 
+A python library for scraping housing data from Daft.ie.
+
+_Inspired by the wonderful [daftlistings library](https://github.com/AnthonyBloomer/daftlistings)._
+
 [![TheJokersThief](https://circleci.com/gh/TheJokersThief/daft-scraper.svg?style=svg)](<LINK>)
 
 - [daft-scraper](#daft-scraper)
@@ -39,6 +43,14 @@ from daft_scraper.search.options import (
 )
 from daft_scraper.search.options_location import LocationsOption, Location
 
+options = [
+    PropertyTypesOption([PropertyType.APARTMENT]),
+    FacilitiesOption([Facility.PARKING, Facility.SERVICED_PROPERTY]),
+    LocationsOption([Location.SWORDS_DUBLIN]),
+    PriceOption(0, 1000),
+    BedOption(1, 4),
+]
+
 api = DaftSearch(SearchType.RENT)
 listings = api.search(options)
 
@@ -50,32 +62,34 @@ for listing in listings:
 
 # Using the CLI
 
+The CLI is included as an easy way for me test things and get some quick results :) Let me know if you have any suggestions!
+
 To install the CLI, clone the repo and install the dependencies with `make install`.
 
 ```
-$ poetry run daft search --max-pages 1 property-for-rent
-     id    price  title                                                                       propertyType
--------  -------  --------------------------------------------------------------------------  --------------
-1443907     2800  Capital Dock Residence, Grand Canal, Grand Canal Dock, Co. Dublin           Apartments
-1446982     2500  Quayside Quarter, North Wall Quay, Dublin 1, Co. Dublin                     Apartments
-1442724     2850  Opus, 6 Hanover Quay, Hanover Quay, Dublin 2, Co. Dublin                    Apartments
-2621605     1900  Knockrabo, Mount Anville Road, Goatstown, Co. Dublin                        Apartments
-2503954     2500  OCCU Scholarstown Wood, Scholarstown Road, Rathfarnham, Co. Dublin          Apartments
-2511232     1900  Clancy Quay by Kennedy Wilson, South Circular Road, Dublin 8, Co. Dublin    Apartments
-2314852     1700  Elmfield by Havitat, Ballyogan Road, Leopardstown, Co. Dublin               Apartments
-1442430     2150  Mount Argus Apartments, Mount Argus Road, Harold's Cross, Co. Dublin        Apartments
-1491037     1950  Bridgefield, Northwood, Santry, Co. Dublin                                  Apartments
-2621761      430  Archway Court Student Accommodation, Mountjoy Street, Dublin 7, Co. Dublin  Apartments
-2524873     2200  Ropemaker Place, Hanover Street East, Dublin 2, Co. Dublin                  Apartments
-2329824     1750  Wolfe Tone Lofts by Havitat, Wolfe Tone Street, Dublin 1, Co. Dublin        Apartments
-2632723     2000  Heuston South Quarter, St Johns Road West, Dublin 8, Co. Dublin             Apartments
-1527608     2808  Node Living, 25 pembroke street upper, Dublin 2, Co. Dublin                 Apartments
-2317385     1900  Sandford Lodge by Kennedy Wilson, Sandford Lodge, Ranelagh, Co. Dublin      Apartments
-2524752     2350  Whitepines South, Stocking Avenue, Rathfarnham, Co. Dublin                  Apartments
-1518281     1850  Marina Village, Greystones, Co. Wicklow                                     Apartments
-2287912     1750  Hanbury Mews, Hanbury Lane, Dublin 8, Co. Dublin                            Apartments
-2316503     2600  Alto Vetro, Grand Canal Square, Dublin 2, Co. Dublin                        Apartments
-2317419     1800  Northbank Apartments, Castleforbes Road, Dublin 1, Co. Dublin               Apartments
+$ poetry run daft search --max-pages 1 property-for-rent --location cork --location galway
+     id    price  title                                                                    propertyType    url
+-------  -------  -----------------------------------------------------------------------  --------------  --------------------------------------------------------------------------------------------------
+2315059  3328     The Elysian, Eglinton Road, Co. Cork                                     Apartments      https://daft.ie/for-rent/the-elysian-eglinton-road-co-cork/2315059
+2588837   570     Parchment Square, Model Farm Road, Cork, Co. Cork                        Apartments      https://daft.ie/for-rent/parchment-square-model-farm-road-cork-co-cork/2588837
+2310295   759.5   Nido Curraheen Point, Farranlea Road, Co. Cork                           Apartments      https://daft.ie/for-rent/nido-curraheen-point-farranlea-road-co-cork/2310295
+2292251   954.8   From Here - Student Living, Galway Central, Fairgreen Road, Co. Galway   Apartments      https://daft.ie/for-rent/from-here-student-living-galway-central-fairgreen-road-co-galway/2292251
+2590894   495     BUNK CO LIVING, Kiltartan house Forster Street, Co. Galway               Apartments      https://daft.ie/for-rent/bunk-co-living-kiltartan-house-forster-street-co-galway/2590894
+2575994   650     Steelworks, 9/10 Copley Street, Ballintemple, Cork City, Cork, Co. Cork  Apartments      https://daft.ie/for-rent/steelworks-9-10-copley-street-ballintemple-cork-city-cork-co-cork/2575994
+2327420  1028.58  Lee Point, South Main Street, Co. Cork                                   Apartments      https://daft.ie/for-rent/lee-point-south-main-street-co-cork/2327420
+2751036  2400     16A The Long Walk, Co. Galway                                            House           https://daft.ie/for-rent/house-16a-the-long-walk-co-galway/2751036
+2745585  1588     Wellington Road, Co. Cork                                                Apartment       https://daft.ie/for-rent/apartment-wellington-road-co-cork/2745585
+2626561  2800     3 Saint Joseph's Terrace, Gould Street, Co. Cork                         House           https://daft.ie/for-rent/house-3-saint-josephs-terrace-gould-street-co-cork/2626561
+2737101  1800     CHURCHFIELDS SALTHILL, Salthill, Co. Galway                              House           https://daft.ie/for-rent/house-churchfields-salthill-salthill-co-galway/2737101
+2759058  1400     24 Rutland Place, South Terrace, Co. Cork                                Apartment       https://daft.ie/for-rent/apartment-24-rutland-place-south-terrace-co-cork/2759058
+2629695  1750     56 Caiseal Cam, Roscam, Co. Galway                                       House           https://daft.ie/for-rent/house-56-caiseal-cam-roscam-co-galway/2629695
+2737848  1500     Dark Rd, Kilcolgan, Co. Galway                                           House           https://daft.ie/for-rent/house-dark-rd-kilcolgan-co-galway/2737848
+2758935  1200     Hollyville, Turners Cross, Co. Cork                                      House           https://daft.ie/for-rent/house-hollyville-turners-cross-co-cork/2758935
+2737834  1800     11 Shangort Park, Knocknacarra, Co. Galway                               House           https://daft.ie/for-rent/house-11-shangort-park-knocknacarra-co-galway/2737834
+2757337   950     Apartment 3, 13 Harbour Row, Cobh, Co. Cork                              House           https://daft.ie/for-rent/house-apartment-3-13-harbour-row-cobh-co-cork/2757337
+2756288  4500     Meizelljob, Coast Road, Fountainstown, Co. Cork                          House           https://daft.ie/for-rent/house-meizelljob-coast-road-fountainstown-co-cork/2756288
+2756231  1500     Garrai De Brun, Fort Lorenzo, Taylor's Hill, Co. Galway                  House           https://daft.ie/for-rent/house-garrai-de-brun-fort-lorenzo-taylors-hill-co-galway/2756231
+2632714  1650     3 Bothar An tSlÃ©ibhe, Moycullen, Co. Galway                             House           https://daft.ie/for-rent/house-3-bothar-an-tsl-ibhe-moycullen-co-galway/2632714
 ```
 
 ## `search` command
@@ -89,7 +103,7 @@ For any flag that can take `[multiple]` arguments, you can supply the flag multi
 | flag  | description |
 |---|---|
 | --headers | The attributes to print out for each listing. [multiple] |
-| --locations | Which location you want to search for. For all the possible values, check out the [Location Enum](daft_scraper/search/options_location.py) [multiple] |
+| --location | Which location you want to search for. For all the possible values, check out the [Location Enum](daft_scraper/search/options_location.py) [multiple] |
 | --max-pages | Each page is 20 results, this sets the limit on the number of pages fetched. |
 | --min-price | Minimum price. |
 | --max-price | Maximum price. |

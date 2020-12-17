@@ -18,8 +18,8 @@ app = typer.Typer()
 @app.command()
 def search(
     search_type: SearchType,
-    headers: List[str] = ['id', 'price', 'title', 'propertyType'],
-    locations: List[str] = [Location.ALL.value],
+    headers: List[str] = ['id', 'price', 'title', 'propertyType', 'url'],
+    location: List[str] = [Location.ALL.value],
     max_pages: int = sys.maxsize,
     min_price: int = 0,
     max_price: int = sys.maxsize,
@@ -34,9 +34,9 @@ def search(
     sort: Sort = Sort.BEST_MATCH.value,
     furnishing: Furnishing = Furnishing.ALL_FURNISHINGS.value
 ):
-    locations = [Location(location) for location in locations]
+    location = [Location(location) for location in location]
     options = [
-        LocationsOption(locations),
+        LocationsOption(location),
         PriceOption(min_price, max_price),
         BedOption(min_beds, max_beds),
         PropertyTypesOption(property_type),

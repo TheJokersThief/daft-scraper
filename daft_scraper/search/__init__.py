@@ -32,6 +32,12 @@ class DaftSearch():
         options = self._translate_options(query)
         listings = []
 
+        # If only one location is specified, it should be in the URL, not the params
+        locations = options.get('location', [])
+        if len(locations) == 1:
+            path = path.replace('ireland', locations[0])
+            del options['location']
+
         # Init pagination params
         options['pageSize'] = self.PAGE_SIZE
         options['from'] = 0
