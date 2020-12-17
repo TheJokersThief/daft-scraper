@@ -16,6 +16,7 @@ requests = "^2.25.0"
 typer = "^0.3.2"
 marshmallow = "^3.9.1"
 tabulate = "^0.8.7"
+urllib3 = "^1.26.2"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.4"

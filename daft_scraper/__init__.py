@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from urllib3.util import Retry
 
 
 class DaftHTTPSession(requests.Session):
@@ -29,8 +30,16 @@ class Daft():
     """
     BASE_URL = "https://www.daft.ie/"
 
-    def __init__(self, user_agent=None):
+    def __init__(self, user_agent=None, enable_retries=True):
         self.site = DaftHTTPSession(Daft.BASE_URL, user_agent=user_agent)
+
+        if enable_retries:
+            retry_strategy = Retry(
+                total=3,
+                backoff_factor=0.1
+            )
+            adapter = requests.adapters.HTTPAdapter(max_retries=retry_strategy)
+            self.site.mount("https://", adapter)
 
     def get(self, url, params=None):
         req = self.site.get(url, params=params)
