@@ -54,6 +54,21 @@ class TestDaftScraper(unittest.TestCase):
         got = self.api._translate_options(options)
         self.assertEqual(got, wanted)
 
+    def test__translate_options__use_saleprice(self):
+        wanted = {
+            'salePrice_from': 100000,
+            'salePrice_to': 200000
+        }
+
+        sale_types = [SearchType.SALE, SearchType.NEW_HOMES, SearchType.COMMERCIAL_SALE]
+        for sale_type in sale_types:
+            api = DaftSearch(sale_type)
+            options = [
+                PriceOption(100000, 200000),
+            ]
+            got = api._translate_options(options)
+            self.assertEqual(got, wanted)
+
     def test__build_search_path(self):
         got = self.api._build_search_path()
         self.assertEqual(got, "property-for-rent/ireland")

@@ -23,6 +23,10 @@ class PriceOption(Option):
         }
 
 
+class SalePriceOption(PriceOption):
+    PARAM_KEY = "salePrice"
+
+
 @dataclass
 class BedOption(Option):
     min: int = 0
