@@ -6,7 +6,7 @@ from typing import List
 
 from daft_scraper import Daft
 from daft_scraper.listing import Listing
-from daft_scraper.search.options import Option
+from daft_scraper.search.options import Option, PriceOption, SalePriceOption
 
 
 class SearchType(Enum):
@@ -20,6 +20,7 @@ class SearchType(Enum):
 
 class DaftSearch():
     PAGE_SIZE = 20
+    SALE_TYPES = [SearchType.SALE, SearchType.NEW_HOMES, SearchType.COMMERCIAL_SALE]
 
     def __init__(self, search_type: SearchType):
         self.search_type = search_type
@@ -65,6 +66,10 @@ class DaftSearch():
         """Convert options into dict[str:str] form"""
         options = {}
         for option in query:
+            if isinstance(option, PriceOption) and self.search_type in self.SALE_TYPES:
+                # If the search is a sale type, translate the price option
+                option = SalePriceOption(option.min, option.max)
+
             options = {**options, **option.get_params()}
         return options
 

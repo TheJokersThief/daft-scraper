@@ -60,8 +60,7 @@ class TestDaftScraper(unittest.TestCase):
             'salePrice_to': 200000
         }
 
-        sale_types = [SearchType.SALE, SearchType.NEW_HOMES, SearchType.COMMERCIAL_SALE]
-        for sale_type in sale_types:
+        for sale_type in DaftSearch.SALE_TYPES:
             api = DaftSearch(sale_type)
             options = [
                 PriceOption(100000, 200000),
