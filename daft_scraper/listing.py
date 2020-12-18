@@ -149,7 +149,7 @@ class Listing(dict):
 
     @property
     def description(self) -> str:
-        return self.ad_page_info['props']['pageProps']['listing'].get('description', None)
+        return self.ad_page_info['props']['pageProps'].get(listing, {}).get('description', None)
 
     @property
     def county(self) -> list:
