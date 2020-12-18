@@ -39,7 +39,6 @@ class DaftSearch():
             path = path.replace('ireland', locations[0])
             del options['location']
 
-        print(path, options)
         # Init pagination params
         options['pageSize'] = self.PAGE_SIZE
         options['from'] = 0
