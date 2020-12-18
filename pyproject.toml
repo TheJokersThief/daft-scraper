@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "daft-scraper"
-version = "1.2.0"
+version = "1.2.1"
 description = "A webscraper for Daft.ie"
 authors = ["Evan Smith <me@iamevan.me>"]
 license = "MIT"

@@ -130,6 +130,7 @@ class ListingSchema(Schema):
     image = fields.Dict(keys=fields.Str(), values=fields.Str())
     ber = fields.Nested(ListingBER, default=ListingBER())
     prs = fields.Nested(ListingPRS, default=ListingPRS())
+    point = fields.Nested(ListingPoint, default=ListingPoint())
 
 
 class Listing(dict):
