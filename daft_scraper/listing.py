@@ -75,7 +75,7 @@ class ListingPRS(Schema):
 
 
 class ListingSchema(Schema):
-    URL_BASE = "https://daft.ie"
+    URL_BASE = Daft.BASE_URL
     PRICE_RE = re.compile(r'[0-9,]+')
 
     class Meta:
