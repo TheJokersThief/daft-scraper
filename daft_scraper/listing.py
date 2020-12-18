@@ -1,6 +1,9 @@
+import json
 import re
 from marshmallow import Schema, fields, INCLUDE, post_load
 from marshmallow.utils import missing
+
+from daft_scraper import Daft
 
 
 class Seller(Schema):
@@ -64,14 +67,14 @@ class ListingPRS(Schema):
         unknown = INCLUDE
 
     totalUnitTypes = fields.Int()
-    subUnits = fields.List(fields.Nested(lambda: Listing()))
+    subUnits = fields.List(fields.Nested(lambda: ListingSchema()))
     tagLine = fields.Str()
     location = fields.Str()
     aboutDevelopment = fields.Str()
     brochure = fields.Str()
 
 
-class Listing(Schema):
+class ListingSchema(Schema):
     URL_BASE = "https://daft.ie"
     PRICE_RE = re.compile(r'[0-9,]+')
 
@@ -127,3 +130,34 @@ class Listing(Schema):
     image = fields.Dict(keys=fields.Str(), values=fields.Str())
     ber = fields.Nested(ListingBER, default=ListingBER())
     prs = fields.Nested(ListingPRS, default=ListingPRS())
+
+
+class Listing(dict):
+    _ad_page_info = None
+
+    def __init__(self, data: dict):
+        self.__dict__ = data
+
+    @property
+    def ad_page_info(self):
+        if not self._ad_page_info:
+            parsed_page = Daft().get(self.url)
+            script_text = parsed_page.find('script', {'id': '__NEXT_DATA__'})
+            self._ad_page_info = json.loads(script_text.string)
+        return self._ad_page_info
+
+    @property
+    def description(self) -> str:
+        return self.ad_page_info['props']['pageProps']['listing'].get('description', None)
+
+    @property
+    def county(self) -> list:
+        return self.ad_page_info['props']['pageProps']['dfpTargetingValues'].get('countyName', [])
+
+    @property
+    def area(self) -> list:
+        return self.ad_page_info['props']['pageProps']['dfpTargetingValues'].get('areaName', [])
+
+    @property
+    def views(self) -> int:
+        return self.ad_page_info['props']['pageProps'].get('listingViews', None)
