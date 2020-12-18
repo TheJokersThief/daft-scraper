@@ -58,7 +58,7 @@ class ListingPoint(Schema):
         unknown = INCLUDE
 
     point_type = fields.Str(data_key="type")
-    coordinates = fields.List(fields.Int())
+    coordinates = fields.List(fields.Float())
 
 
 class ListingPRS(Schema):
