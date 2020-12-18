@@ -5,7 +5,7 @@ from enum import Enum
 from typing import List
 
 from daft_scraper import Daft
-from daft_scraper.listing import Listing
+from daft_scraper.listing import Listing, ListingSchema
 from daft_scraper.search.options import Option, PriceOption, SalePriceOption
 
 
@@ -87,7 +87,7 @@ class DaftSearch():
     def _get_listings(self, listings: dict):
         """Convert a dict of listings into marshalled objects"""
         return [
-            Listing().load(listing['listing'])
+            Listing(ListingSchema().load(listing['listing']))
             for listing in listings
         ]
 
