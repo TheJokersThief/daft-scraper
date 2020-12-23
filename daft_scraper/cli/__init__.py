@@ -53,7 +53,7 @@ def search(
 
     table_data = []
     for listing in listings:
-        row = [listing.get(header) for header in headers]
+        row = [getattr(listing, header, "") for header in headers]
         table_data.append(row)
 
     print(tabulate(table_data, headers=headers))
