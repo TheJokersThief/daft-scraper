@@ -56,7 +56,7 @@ listings = api.search(options)
 
 print(len(listings))
 for listing in listings:
-    print(listing.get('title'))
+    print(getattr(listing, 'title'))
 
 ```
 
