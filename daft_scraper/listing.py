@@ -105,7 +105,7 @@ class ListingSchema(Schema):
         data['url'] = self.get_url(data['seoFriendlyPath'])
         return data
 
-    id = fields.Int()
+    _id = fields.Int()
     title = fields.Str()
 
     seoTitle = fields.Str()
@@ -135,6 +135,8 @@ class ListingSchema(Schema):
 
 class Listing(dict):
     _ad_page_info = None
+    _id = None
+    url = None
 
     def __init__(self, data: dict):
         self.__dict__ = data
@@ -146,6 +148,13 @@ class Listing(dict):
             script_text = parsed_page.find('script', {'id': '__NEXT_DATA__'})
             self._ad_page_info = json.loads(script_text.string)
         return self._ad_page_info
+
+    @property
+    def id(self):
+        if not self._id:
+            # If we didn't get the ID on the first pass, query the listing page
+            self._id = self.ad_page_info['props']['pageProps'].get('listing', {}).get('id', None)
+        return self._id
 
     @property
     def description(self) -> str:
