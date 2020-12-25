@@ -105,7 +105,7 @@ class ListingSchema(Schema):
         data['url'] = self.get_url(data['seoFriendlyPath'])
         return data
 
-    _id = fields.Int()
+    _id = fields.Int(data_key="id")
     title = fields.Str()
 
     seoTitle = fields.Str()
