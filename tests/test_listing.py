@@ -25,14 +25,14 @@ class TestDaftScraper(unittest.TestCase):
         with open('tests/fixtures/listing.json', 'r') as fixture:
             got = ListingSchema().load(json.load(fixture)['listing'])
 
-        self.assertEqual(got.get('id'), 2315059)
+        self.assertEqual(got.get('_id'), 2315059)
         self.assertEqual(got.get('price'), 14443.52)
         self.assertEqual(got.get('numBedrooms'), 3)
         self.assertEqual(got.get('numBathrooms'), None)
 
         # Test that the nested Lambda works
         first_subunit = got.get('prs').get('subUnits')[0]
-        self.assertEqual(first_subunit.get('id'), 2605808)
+        self.assertEqual(first_subunit.get('_id'), 2605808)
 
         # Test seller
         self.assertEqual(got.get('seller').get('sellerId'), 9601)

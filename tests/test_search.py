@@ -32,7 +32,7 @@ class TestDaftScraper(unittest.TestCase):
         ]
 
         got = self.api.search(options)
-        self.assertEqual(got[0].__dict__['id'], 1443907)
+        self.assertEqual(got[0].id, 1443907)
 
     def test__translate_options(self):
         wanted = {
@@ -84,7 +84,7 @@ class TestDaftScraper(unittest.TestCase):
         page_data = self.api._get_page_data(path, params={})
 
         got = self.api._get_listings(page_data['props']['pageProps']['listings'])
-        self.assertEqual(got[0].__dict__['id'], 1443907)
+        self.assertEqual(got[0].id, 1443907)
 
     def test__calc_offset(self):
         got = self.api._calc_offset(5)
