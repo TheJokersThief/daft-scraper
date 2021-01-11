@@ -60,6 +60,14 @@ class PropertyType(Enum):
     HOUSE = "houses"
     APARTMENT = "apartments"
     STUDIO_APARTMENT = "studio-apartments"
+    DETACHED_HOUSE = "detached-houses"
+    SEMI_DETACHED_HOUSE = "semi-detached-houses"
+    TERRACED_HOUSE = "terraced-houses"
+    END_OF_TERRACE_HOUSE = "end-of-terrace-houses"
+    TOWNHOUSE = "townhouses"
+    DUPLEX = "duplexes"
+    BUNGALOW = "bungalows"
+    SITE = "sites"
 
 
 @dataclass
