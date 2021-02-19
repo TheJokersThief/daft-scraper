@@ -26,7 +26,7 @@ class DaftSearch():
         self.search_type = search_type
         self.site = Daft()
 
-    def search(self, query: List[Option], max_pages: int = sys.maxsize):
+    def search(self, query: List[Option], max_pages: int = sys.maxsize, page_offset: int = 0):
         path = self._build_search_path()
 
         # Convert options to their string form
@@ -41,7 +41,7 @@ class DaftSearch():
 
         # Init pagination params
         options['pageSize'] = self.PAGE_SIZE
-        options['from'] = 0
+        options['from'] = self._calc_offset(page_offset)
 
         # Fetch the first page and get pagination info
         page_data = self._get_page_data(path, options)
