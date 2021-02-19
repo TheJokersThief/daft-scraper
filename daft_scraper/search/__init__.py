@@ -2,11 +2,15 @@ import json
 import sys
 from bs4 import BeautifulSoup
 from enum import Enum
-from typing import List
+from typing import List, Callable
 
 from daft_scraper import Daft
 from daft_scraper.listing import Listing, ListingSchema
 from daft_scraper.search.options import Option, PriceOption, SalePriceOption
+
+
+def empty_post_process_hook(listing: Listing, raw_data: dict) -> Listing:
+    return listing
 
 
 class SearchType(Enum):
@@ -22,8 +26,9 @@ class DaftSearch():
     PAGE_SIZE = 20
     SALE_TYPES = [SearchType.SALE, SearchType.NEW_HOMES, SearchType.COMMERCIAL_SALE]
 
-    def __init__(self, search_type: SearchType):
+    def __init__(self, search_type: SearchType, post_process_hook: Callable = empty_post_process_hook):
         self.search_type = search_type
+        self.post_process_hook = post_process_hook
         self.site = Daft()
 
     def search(self, query: List[Option], max_pages: int = sys.maxsize, page_offset: int = 0):
@@ -83,7 +88,10 @@ class DaftSearch():
     def _get_listings(self, listings: dict):
         """Convert a dict of listings into marshalled objects"""
         for listing in listings:
-            yield Listing(ListingSchema().load(listing['listing']))
+            yield self.post_process_hook(
+                Listing(ListingSchema().load(listing['listing'])),
+                listing
+            )
 
     def _calc_offset(self, current_page: int):
         """Calculate the offset for pagination"""
