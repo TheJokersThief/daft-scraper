@@ -31,7 +31,6 @@ class DaftSearch():
 
         # Convert options to their string form
         options = self._translate_options(query)
-        listings = []
 
         # If only one location is specified, it should be in the URL, not the params
         locations = options.get('location', [])
@@ -50,13 +49,11 @@ class DaftSearch():
 
         while current_page < min(totalPages, max_pages):
             listing_data = page_data['props']['pageProps']['listings']
-            listings.extend(self._get_listings(listing_data))
+            yield from self._get_listings(listing_data)
 
             options['from'] = self._calc_offset(current_page)
             page_data = self._get_page_data(path, options)
             current_page = page_data['props']['pageProps']['paging']['currentPage']
-
-        return listings
 
     def _build_search_path(self):
         """Build the URL path for searches"""
@@ -85,10 +82,8 @@ class DaftSearch():
 
     def _get_listings(self, listings: dict):
         """Convert a dict of listings into marshalled objects"""
-        return [
-            Listing(ListingSchema().load(listing['listing']))
-            for listing in listings
-        ]
+        for listing in listings:
+            yield Listing(ListingSchema().load(listing['listing']))
 
     def _calc_offset(self, current_page: int):
         """Calculate the offset for pagination"""

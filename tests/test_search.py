@@ -31,7 +31,7 @@ class TestDaftScraper(unittest.TestCase):
             BedOption(1, 4),
         ]
 
-        got = self.api.search(options)
+        got = list(self.api.search(options))
         self.assertEqual(got[0].id, 1443907)
 
     def test__translate_options(self):
@@ -83,7 +83,7 @@ class TestDaftScraper(unittest.TestCase):
         path = self.api._build_search_path()
         page_data = self.api._get_page_data(path, params={})
 
-        got = self.api._get_listings(page_data['props']['pageProps']['listings'])
+        got = list(self.api._get_listings(page_data['props']['pageProps']['listings']))
         self.assertEqual(got[0].id, 1443907)
 
     def test__calc_offset(self):
