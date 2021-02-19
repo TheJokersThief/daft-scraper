@@ -2,6 +2,7 @@ import json
 import re
 from marshmallow import Schema, fields, INCLUDE, post_load
 from marshmallow.utils import missing
+from urllib.parse import urljoin
 
 from daft_scraper import Daft
 
@@ -98,7 +99,7 @@ class ListingSchema(Schema):
         return missing
 
     def get_url(self, seo_friendly_path):
-        return "".join([self.URL_BASE, seo_friendly_path])
+        return urljoin(self.URL_BASE, seo_friendly_path)
 
     @post_load
     def post_load(self, data, **kwargs):
