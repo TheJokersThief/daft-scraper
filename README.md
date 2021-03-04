@@ -47,16 +47,15 @@ options = [
     PropertyTypesOption([PropertyType.APARTMENT]),
     FacilitiesOption([Facility.PARKING, Facility.SERVICED_PROPERTY]),
     LocationsOption([Location.SWORDS_DUBLIN]),
-    PriceOption(0, 1000),
+    PriceOption(0, 999999),
     BedOption(1, 4),
 ]
 
 api = DaftSearch(SearchType.RENT)
 listings = api.search(options)
 
-print(len(listings))
 for listing in listings:
-    print(getattr(listing, 'title'))
+    print(listing.title)
 
 ```
 
