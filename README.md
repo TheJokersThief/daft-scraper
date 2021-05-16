@@ -10,6 +10,7 @@ _Inspired by the wonderful [daftlistings library](https://github.com/AnthonyBloo
 - [Install](#install)
   - [Via Pip](#via-pip)
   - [Via Git](#via-git)
+- [Real-life Usage](#real-life-usage)
 - [Example Usage](#example-usage)
 - [Using the CLI](#using-the-cli)
   - [`search` command](#search-command)
@@ -32,6 +33,10 @@ git clone git@github.com:TheJokersThief/daft-scraper.git
 cd daft-scraper
 make install
 ```
+
+# Real-life Usage
+
+* [Daft2BigQuery](https://github.com/TheJokersThief/Daft2BigQuery): A project that pulls housing information from Daft and puts it in GCP BigQuery for data modelling.
 
 # Example Usage
 
