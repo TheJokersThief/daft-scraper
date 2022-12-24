@@ -1,18 +1,15 @@
 version: 2.1
 
 orbs:
-  python: circleci/python@0.2.1
+  python: circleci/python@2.1.1
 
 jobs:
   build-and-test:
     executor: python/default
     steps:
       - checkout
-      - python/load-cache
-      - run:
-          command: make dev
-          name: Install dependencies
-      - python/save-cache
+      - python/install-packages:
+          pkg-manager: poetry
       - run:
           command: make lint
           name: Linting
