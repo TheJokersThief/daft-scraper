@@ -32,7 +32,7 @@ dev: ensure-poetry clean  ## Install project and dev dependencies
 	poetry install
 
 install: ensure-poetry clean  ## Install project without dev dependencies
-	poetry install --no-dev
+	poetry install --only main
 
 export_conf:  ## Export the poetry lockfile to requirements.txt
 	poetry export -f requirements.txt --output requirements.txt --without-hashes
