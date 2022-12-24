@@ -26,3 +26,6 @@ bin/
 .vscode/
 examples/
 *.ipynb
+
+# Project specific
+requirements.txt

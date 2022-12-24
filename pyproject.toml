@@ -21,7 +21,7 @@ urllib3 = "^1.26.2"
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.4"
 pylint = "^2.6.0"
-pytest = "=5.0.1"
+pytest = "*"
 pytest-cov = "*"
 mock = "*"
 
