@@ -8,7 +8,7 @@ class DaftHTTPSession(requests.Session):
     """
     Wrap a regular session to use a base URL and add a user-agent header
     """
-    DEFAULT_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Gecko/20100101 Firefox/24.0"
+    DEFAULT_USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
 
     def __init__(self, prefix_url=None, user_agent=None, *args, **kwargs):
         super(DaftHTTPSession, self).__init__(*args, **kwargs)
