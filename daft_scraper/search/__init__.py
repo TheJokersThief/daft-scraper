@@ -22,49 +22,57 @@ class SearchType(Enum):
     COMMERCIAL_SALE = "commercial-properties-for-sale"
 
 
-class DaftSearch():
+class DaftSearch:
     PAGE_SIZE = 20
     SALE_TYPES = [SearchType.SALE, SearchType.NEW_HOMES, SearchType.COMMERCIAL_SALE]
 
-    def __init__(self, search_type: SearchType, post_process_hook: Callable = empty_post_process_hook):
+    def __init__(
+        self,
+        search_type: SearchType,
+        post_process_hook: Callable = empty_post_process_hook,
+    ):
         self.search_type = search_type
         self.post_process_hook = post_process_hook
         self.site = Daft()
 
-    def search(self, query: List[Option], max_pages: int = sys.maxsize, page_offset: int = 0):
+    def search(
+        self, query: List[Option], max_pages: int = sys.maxsize, page_offset: int = 0
+    ):
         path = self._build_search_path()
 
         # Convert options to their string form
         options = self._translate_options(query)
 
         # If only one location is specified, it should be in the URL, not the params
-        locations = options.get('location', [])
+        locations = options.get("location", [])
         if len(locations) == 1:
-            path = path.replace('ireland', locations[0])
-            del options['location']
+            path = path.replace("ireland", locations[0])
+            del options["location"]
 
         # Init pagination params - keep pageSize, switch to page-based pagination
-        options['pageSize'] = self.PAGE_SIZE
-        options['page'] = 1 + page_offset
+        options["pageSize"] = self.PAGE_SIZE
+        options["page"] = 1 + page_offset
 
         # Fetch the first page and get pagination info
         page_data = self._get_page_data(path, options)
-        totalPages = page_data['props']['pageProps']['paging']['totalPages']
+        totalPages = page_data["props"]["pageProps"]["paging"]["totalPages"]
         current_page = 1 + page_offset
 
         while current_page <= min(totalPages, max_pages):
-            listing_data = page_data['props']['pageProps']['listings']
+            listing_data = page_data["props"]["pageProps"]["listings"]
             yield from self._get_listings(listing_data)
 
             # Check if we need to fetch next page
             if current_page < min(totalPages, max_pages):
                 # Move to next page
                 current_page += 1
-                options['page'] = current_page
+                options["page"] = current_page
                 page_data = self._get_page_data(path, options)
-                
+
                 # Verify API returned the expected page (keep API validation)
-                api_current_page = page_data['props']['pageProps']['paging']['currentPage']
+                api_current_page = page_data["props"]["pageProps"]["paging"][
+                    "currentPage"
+                ]
                 if api_current_page != current_page:
                     # API validation failed, use API's page number
                     current_page = api_current_page
@@ -89,7 +97,7 @@ class DaftSearch():
 
     def _extract_json(self, page_html: BeautifulSoup):
         """Extract the JSON script tag and parse it for a page"""
-        script_text = page_html.find('script', {'id': '__NEXT_DATA__'})
+        script_text = page_html.find("script", {"id": "__NEXT_DATA__"})
         return json.loads(script_text.string)
 
     def _get_page_data(self, path, params):
@@ -101,8 +109,7 @@ class DaftSearch():
         """Convert a dict of listings into marshalled objects"""
         for listing in listings:
             yield self.post_process_hook(
-                Listing(ListingSchema().load(listing['listing'])),
-                listing
+                Listing(ListingSchema().load(listing["listing"])), listing
             )
 
     def _calc_offset(self, current_page: int):
