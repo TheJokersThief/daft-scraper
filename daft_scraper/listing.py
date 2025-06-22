@@ -34,18 +34,20 @@ class ImageLabel(Schema):
     label = fields.Str()
     type = fields.Str()
 
+
 class ImageItem(Schema):
     class Meta:
-        unknown = INCLUDE 
-    
+        unknown = INCLUDE
+
     imageLabels = fields.List(fields.Nested(ImageLabel), missing=list)
+
 
 class ListingMedia(Schema):
     class Meta:
         unknown = INCLUDE
 
     images = fields.List(fields.Nested(ImageItem), default=[])
-    
+
     totalImages = fields.Int()
     hasVideo = fields.Bool(default=False)
     hasVirtualTour = fields.Bool(default=False)
@@ -86,7 +88,7 @@ class ListingPRS(Schema):
 
 class ListingSchema(Schema):
     URL_BASE = Daft.BASE_URL
-    PRICE_RE = re.compile(r'[0-9,]+')
+    PRICE_RE = re.compile(r"[0-9,]+")
 
     class Meta:
         # Include unknown fields in the deserialized output
@@ -95,14 +97,14 @@ class ListingSchema(Schema):
     def convert_price(self, value):
         matches = self.PRICE_RE.findall(value)
         if matches:
-            price_int = int(matches[0].replace(',', ''))
+            price_int = int(matches[0].replace(",", ""))
             if "week" in value:
                 price_int *= 4.34
             return price_int
         return missing
 
     def convert_bed_and_bath(self, value):
-        matches = re.findall(r'\d+', value)
+        matches = re.findall(r"\d+", value)
         if matches:
             return int(matches[0])
         return missing
@@ -112,7 +114,7 @@ class ListingSchema(Schema):
 
     @post_load
     def post_load(self, data, **kwargs):
-        data['url'] = self.get_url(data['seoFriendlyPath'])
+        data["url"] = self.get_url(data["seoFriendlyPath"])
         return data
 
     _id = fields.Int(data_key="id")
@@ -155,7 +157,7 @@ class Listing(dict):
     def ad_page_info(self):
         if not self._ad_page_info:
             parsed_page = Daft().get(self.url)
-            script_text = parsed_page.find('script', {'id': '__NEXT_DATA__'})
+            script_text = parsed_page.find("script", {"id": "__NEXT_DATA__"})
             self._ad_page_info = json.loads(script_text.string)
         return self._ad_page_info
 
@@ -163,21 +165,33 @@ class Listing(dict):
     def id(self):
         if not self._id:
             # If we didn't get the ID on the first pass, query the listing page
-            self._id = self.ad_page_info['props']['pageProps'].get('listing', {}).get('id', None)
+            self._id = (
+                self.ad_page_info["props"]["pageProps"]
+                .get("listing", {})
+                .get("id", None)
+            )
         return self._id
 
     @property
     def description(self) -> str:
-        return self.ad_page_info['props']['pageProps'].get('listing', {}).get('description', None)
+        return (
+            self.ad_page_info["props"]["pageProps"]
+            .get("listing", {})
+            .get("description", None)
+        )
 
     @property
     def county(self) -> list:
-        return self.ad_page_info['props']['pageProps']['dfpTargetingValues'].get('countyName', [])
+        return self.ad_page_info["props"]["pageProps"]["dfpTargetingValues"].get(
+            "countyName", []
+        )
 
     @property
     def area(self) -> list:
-        return self.ad_page_info['props']['pageProps']['dfpTargetingValues'].get('areaName', [])
+        return self.ad_page_info["props"]["pageProps"]["dfpTargetingValues"].get(
+            "areaName", []
+        )
 
     @property
     def views(self) -> int:
-        return self.ad_page_info['props']['pageProps'].get('listingViews', None)
+        return self.ad_page_info["props"]["pageProps"].get("listingViews", None)
