@@ -43,22 +43,34 @@ class DaftSearch():
             path = path.replace('ireland', locations[0])
             del options['location']
 
-        # Init pagination params
+        # Init pagination params - keep pageSize, switch to page-based pagination
         options['pageSize'] = self.PAGE_SIZE
-        options['from'] = self._calc_offset(page_offset)
+        options['page'] = 1 + page_offset
 
         # Fetch the first page and get pagination info
         page_data = self._get_page_data(path, options)
         totalPages = page_data['props']['pageProps']['paging']['totalPages']
-        current_page = 0
+        current_page = 1 + page_offset
 
-        while current_page < min(totalPages, max_pages):
+        while current_page <= min(totalPages, max_pages):
             listing_data = page_data['props']['pageProps']['listings']
             yield from self._get_listings(listing_data)
 
-            options['from'] = self._calc_offset(current_page)
-            page_data = self._get_page_data(path, options)
-            current_page = page_data['props']['pageProps']['paging']['currentPage']
+            # Check if we need to fetch next page
+            if current_page < min(totalPages, max_pages):
+                # Move to next page
+                current_page += 1
+                options['page'] = current_page
+                page_data = self._get_page_data(path, options)
+                
+                # Verify API returned the expected page (keep API validation)
+                api_current_page = page_data['props']['pageProps']['paging']['currentPage']
+                if api_current_page != current_page:
+                    # API validation failed, use API's page number
+                    current_page = api_current_page
+            else:
+                # Reached the end
+                break
 
     def _build_search_path(self):
         """Build the URL path for searches"""
@@ -94,5 +106,5 @@ class DaftSearch():
             )
 
     def _calc_offset(self, current_page: int):
-        """Calculate the offset for pagination"""
+        """Calculate the offset for pagination (kept for compatibility)"""
         return self.PAGE_SIZE * current_page

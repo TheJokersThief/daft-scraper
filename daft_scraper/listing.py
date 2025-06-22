@@ -30,13 +30,22 @@ class Seller(Schema):
     backgroundColour = fields.Str()
 
 
+class ImageLabel(Schema):
+    label = fields.Str()
+    type = fields.Str()
+
+class ImageItem(Schema):
+    class Meta:
+        unknown = INCLUDE 
+    
+    imageLabels = fields.List(fields.Nested(ImageLabel), missing=list)
+
 class ListingMedia(Schema):
     class Meta:
-        # Include unknown fields in the deserialized output
         unknown = INCLUDE
 
-    images = fields.List(fields.Dict(keys=fields.Str(), values=fields.Str()), default=[])
-
+    images = fields.List(fields.Nested(ImageItem), default=[])
+    
     totalImages = fields.Int()
     hasVideo = fields.Bool(default=False)
     hasVirtualTour = fields.Bool(default=False)
